@@ -1,0 +1,415 @@
+breweries,city,state,latitude,longitude,brewery_ID,brewery_type
+7 Clans Brewing,Canton,North Carolina,35.5328838,-82.8373558,QEB46N,Micro Brewery
+Olde Hickory Brewery,Hickory,North Carolina,35.72121,-81.387083,ichhfQ,Restaurant/Ale House
+Andrews Brewing Company,Andrews,North Carolina,35.199271,-83.812814,SYkdNz,Nano Brewery
+Archetype Brewing Company,Asheville,North Carolina,35.6005152,-82.5549742,Cwhr9F,Micro Brewery
+Sierra Nevada Brewing Co.,Fletcher,North Carolina,35.4303824,-82.5489214,nHLlnK,Micro Brewery
+New Belgium Brewing,Asheville,North Carolina,35.588358,-82.573548,Jt43j7,Micro Brewery
+Ass Clown Brewing Company,Cornelius,North Carolina,35.4577774,-80.8545343,SWMzJ3,Micro Brewery
+Barrel Culture,Durham,North Carolina,35.893296,-78.888539,bv8S0U,Micro Brewery
+BDD Brewing Company,Rocky Mount,North Carolina,35.9592965,-77.8017468,4r25HI,Micro Brewery
+Beer Army,New Bern,North Carolina,35.1515463,-77.1490848,iHEJZm,Restaurant/Ale House
+Ghostface Brewing,Mooresville,North Carolina,35.5814879,-80.8153079,FSFN0j,Micro Brewery
+Billy Beer Inc,Walstonburg,North Carolina,35.5945518,-77.699914,j8PiMZ,Production Facility
+Catawba Brewing Co.,Asheville,North Carolina,35.5659744,-82.5397969,OCiWW5,Micro Brewery
+Black Mountain Brewing,Black Mountain,North Carolina,35.6168281,-82.3195941,Wwgba7,Micro Brewery
+Blowing Rock Brewing,Blowing Rock,North Carolina,36.1326714,-81.677025,p2bHtA,Micro Brewery
+Blowing Rock Brewing,Hickory,North Carolina,35.7353882,-81.3258022,p2bHtA,Micro Brewery
+Oskar Blues Brewery,Brevard,North Carolina,35.2534666,-82.706852,q6vJUK,Micro Brewery
+UpCountry Brewing Co.,Brevard,North Carolina,35.238242,-82.735986,EeNu7g,Micro Brewery
+Boondocks Brewing,West Jefferson,North Carolina,36.39957,-81.49158,Pf7pos,Micro Brewery
+Dirtbag Ales,Hope Mills,North Carolina,34.9399796,-78.9133094,G21vGb,Micro Brewery
+Brewery Bhavana,Raleigh,North Carolina,35.7774414,-78.6369037,m1KTdv,Micro Brewery
+Bright Penny Brewing Company,Mebane,North Carolina,36.095674,-79.263659,87K5yW,Micro Brewery
+Brouwerïj Cursus Kĕmē,Asheville,North Carolina,35.5759256,-82.5252043,P9cmyA,Micro Brewery
+Bull Durham Beer Company,Durham,North Carolina,35.991585,-78.904016,h1SYe2,Micro Brewery
+Carolina Brewery,Chapel Hill,North Carolina,35.9107497,-79.0628267,JKx7GQ,Brewpub
+Rock Bottom Restaurant & Brewery,Charlotte,North Carolina,35.230194,-80.839336,D1UQzj,Brewpub
+Catawba Brewing Co.,Charlotte,North Carolina,35.2245307,-80.8203339,OCiWW5,Micro Brewery
+Check Six Brewing Company,Southport,North Carolina,33.9522705,-78.0444171,Lli3HQ,Micro Brewery
+Clouds Brewing,Durham,North Carolina,35.9999644,-78.9101083,B5jTO7,Brewpub
+Cotton House Craft Brewers,Cary,North Carolina,35.7844908,-78.7808915,ouxHD2,Micro Brewery
+Crystal Coast Brewing Company,Atlantic Beach,North Carolina,34.7008756,-76.7413625,5zPMkZ,Micro Brewery
+Divine Barrel Brewing,Charlotte,North Carolina,35.2502061,-80.7962924,Dr0DzL,Micro Brewery
+Asheville Brewing Company,Asheville,North Carolina,35.5917433,-82.5553572,WDrFlD,Brewpub
+Catawba Brewing Co.,Morganton,North Carolina,35.744683,-81.685705,OCiWW5,Micro Brewery
+Draft Line Brewing,Fuquay-Varina,North Carolina,35.595338,-78.7954471,GB60WF,Micro Brewery
+Dry Falls Brewing Co.,Hendersonville,North Carolina,35.3103986,-82.4628946,la8Dsz,Micro Brewery
+DSSOLVR,Asheville,North Carolina,35.5969081,-82.5534597,IJEzHF,Micro Brewery
+Eurisko Beer Company,Asheville,North Carolina,35.5862455,-82.5523569,46zcjJ,Micro Brewery
+Fitzgerald's Irish Pub,Charlotte,North Carolina,35.2269273,-80.8403808,fQhCNM,Restaurant/Ale House
+Flying Machine Brewing Company,Wilmington,North Carolina,34.229589,-77.901324,k8ujcf,Tasting Room
+Foothills Brewing Company,Winston-Salem,North Carolina,36.045353,-80.323159,ajREdT,Tasting Room
+Foothills Brewing Company,Winston-Salem,North Carolina,36.0975305,-80.250915,ajREdT,Brewpub
+Fortnight Brewing Company,Cary,North Carolina,35.777278,-78.801539,nLP1fR,Micro Brewery
+Fourth Creek Brewing Co.,Statesville,North Carolina,35.7841271,-80.8910222,apcbMr,Micro Brewery
+Fox Hill Meadery,Marshall,North Carolina,35.701399,-82.725496,cESRYF,Meadery
+Wicked Weed Brewing Company,Asheville,North Carolina,35.589172,-82.5552263,zeWbuM,Micro Brewery
+Funky Skunk Brewing,Otto,North Carolina,35.0482835,-83.4323375,FWmPdY,Nano Brewery
+Ghostface Brewing,Mooresville,North Carolina,35.5799965,-80.804496,FSFN0j,Restaurant/Ale House
+Good Creature Brewing,Greensboro,North Carolina,36.0661049,-79.7905131,kh1g5M,Micro Brewery
+Loe's Brewing Company,Granite Falls,North Carolina,35.7948892,-81.4299923,SHa2O7,Micro Brewery
+Natty Greene's Brewing Co.,Greensboro,North Carolina,36.069368,-79.790431,rfXHD7,Brewpub
+Guidon Brewing Company,Hendersonville,North Carolina,35.3227185,-82.4587108,9GPPjY,Micro Brewery
+Hi-Wire Brewing,Asheville,North Carolina,35.5710813,-82.5459467,ueswRW,Micro Brewery
+Loe's Brewing Company,Hickory,North Carolina,35.7597287,-81.3345216,SHa2O7,Micro Brewery
+Skull Coast Ales,Hickory,North Carolina,35.735156,-81.325672,HX4Prz,Micro Brewery
+Liberty Steakhouse and Brewery,High Point,North Carolina,35.988478,-80.00451,XOcBJQ,Brewpub
+HopFly Brewing Company,Rocky Mount,North Carolina,35.9589495,-77.802199,ApVAD3,Micro Brewery
+Incendiary Brewing Company,Winston-Salem,North Carolina,36.0966367,-80.240563,BajRnV,Micro Brewery
+Keeper's Cut Meadery,Marion,North Carolina,35.681552,-82.0112971,beC6Xf,Meadery
+Koi Pond Brewing Company,Rocky Mount,North Carolina,35.938012,-77.804379,0tKnKg,Micro Brewery
+Coffee Brewery,Raleigh,North Carolina,35.8034825,-78.6340497,7JiAJ8,Production Facility
+Lost Colony Brewery,Manteo,North Carolina,35.909509,-75.6695212,hd8yE8,Micro Brewery
+Mad Co. Brew House,Marshall,North Carolina,35.7974112,-82.6848629,8NIrvv,Micro Brewery
+Lynwood Brewing Concern,Raleigh,North Carolina,35.8704474,-78.7173494,DuLRZh,Micro Brewery
+Green Man Brewery,Asheville,North Carolina,35.5886188,-82.5531836,kZAhYn,Brewpub
+Bond Brothers Beer Company,Cary,North Carolina,35.7883075,-78.7777732,mEDZEd,Micro Brewery
+Hayesville Brewing Co,Hayesville,North Carolina,35.039894,-83.7957094,GH37ia,Micro Brewery
+The Dreamchaser's Brewery,Waxhaw,North Carolina,34.9252494,-80.7430102,SZSffk,Nano Brewery
+Mill Whistle Brewing,Beaufort,North Carolina,34.7165356,-76.6490569,EFL2ud,Micro Brewery
+Ghost Harbor Brewing Company,Elizabeth City,North Carolina,36.3007777,-76.2189429,Nb0pFN,Brewpub
+Zillicoah Beer Co.,Woodfin,North Carolina,35.6172447,-82.5763487,nPgX4b,Tasting Room
+Greenshields Brewery and Pub,Raleigh,North Carolina,35.776817,-78.635987,r01rHx,Brewpub
+Oak City Brewing Company,Knightdale,North Carolina,35.7939123,-78.476717,HktnHV,Micro Brewery
+Lower Left Brewing Co,Charlotte,North Carolina,35.182762,-80.8801084,GUASqL,Micro Brewery
+Red Oak Brewery,Whitsett,North Carolina,36.061258,-79.56952,hNPjUO,Micro Brewery
+Top of the Hill Restaurant and Brewery,Chapel Hill,North Carolina,35.9131641,-79.0557507,buCABg,Brewpub
+Hillman Beer,Asheville,North Carolina,35.56508,-82.537225,fVEF0B,Micro Brewery
+Pelagic Beer And Wine,Raleigh,North Carolina,35.7888592,-78.6339274,IuStnF,Micro Brewery
+Blue Blaze Brewing,Charlotte,North Carolina,35.241765,-80.8672069,vEBhwg,Micro Brewery
+Southern Strain Beer Company LLC,Concord,North Carolina,35.4150768,-80.5771729,R5c06p,Nano Brewery
+New Hill Brewing Co.,Apex,North Carolina,35.732652,-78.8502856,Hox39c,Micro Brewery
+Percent Tap House,Harrisburg,North Carolina,35.3264399,-80.6466085,3PKoGG,Nano Brewery
+Avenge Brewing Co.,Charlotte,North Carolina,35.2270869,-80.8431267,9rdKFY,Micro Brewery
+Bronze Star Brewery,Spout Springs,North Carolina,35.2458543,-79.0230916,u8frJ3,Micro Brewery
+Dingo Dog Brewing Company,Carrboro,North Carolina,35.9101438,-79.0752895,mBM8Oz,Micro Brewery
+Zebulon Artisan Ales,Weaverville,North Carolina,35.6966626,-82.5608605,pp1OW5,Micro Brewery
+Hickory Nut Gorge Brewery,Chimney Rock,North Carolina,35.4402773,-82.250021,WSOfSU,Micro Brewery
+Brown Truck Brewery,High Point,North Carolina,35.9714788,-80.016063,OV4wYQ,Micro Brewery
+Cavendish Brewing Company,Gastonia,North Carolina,35.2657001,-81.1877502,8m7Tbv,Micro Brewery
+Durty Bull Brewing Company,Durham,North Carolina,36.0011871,-78.8982994,0onkhr,Micro Brewery
+Four Wagons Brewing Company,Wendell,North Carolina,35.781442,-78.370197,l5qHlM,Micro Brewery
+Brewery 99,New Bern,North Carolina,35.108064,-77.040954,MMgQZl,Micro Brewery
+Three Spirits Brewery,Charlotte,North Carolina,35.1716557,-80.8791142,6wKutG,Micro Brewery
+Bhramari Brewhouse,Asheville,North Carolina,35.5914264,-82.5520127,d8WYrI,Micro Brewery
+Sweeten Creek Brewing,Asheville,North Carolina,35.5425462,-82.5221774,c30iDf,Micro Brewery
+Joymongers Brewing Co.,Greensboro,North Carolina,36.078767,-79.7936927,EMjWN6,Micro Brewery
+Fainting Goat Brewing Company,Fuquay Varina,North Carolina,35.581367,-78.8000689,rlyBAA,Micro Brewery
+Groundlion Brewing Co.,Seagrove,North Carolina,35.5404147,-79.7730901,qgSKWX,Micro Brewery
+Southern Appalachian Brewery,Hendersonville,North Carolina,35.322374,-82.459547,hdOVRn,Micro Brewery
+Ecusta Brewery and Taproom,Pisgah Forest,North Carolina,35.2737262,-82.7051634,T0B8fy,Micro Brewery
+Camelback Brewing Company,Sanford,North Carolina,35.4872513,-79.1935369,5JtwpP,Micro Brewery
+Mountain Layers Brewing Company,Bryson City,North Carolina,35.4287879,-83.4460677,hdckyq,Micro Brewery
+Howard Brewing Company,Lenoir,North Carolina,35.91498,-81.539464,1yqdyJ,Brewpub
+Little City Brewing And Provisions Co.,Raleigh,North Carolina,35.7851987,-78.6452222,JxLZ8H,Micro Brewery
+Commoners Brewing Company,Concord,North Carolina,35.4597838,-80.5848531,8Qe5WH,Micro Brewery
+Southern Range Craft Beer & BBQ,Monroe,North Carolina,34.9807206,-80.5510121,nEEnk1,Micro Brewery
+Triangle Brewing Company,Durham,North Carolina,35.9967704,-78.8891001,ahlcqI,Micro Brewery
+Edenton Brewing Company,Raleigh,North Carolina,35.809712,-78.618223,eIZS7k,Micro Brewery
+4Chambers Brewing,Stallings,North Carolina,35.0907026,-80.6861799,PXxbtS,Micro Brewery
+Chesapeake Bay Brewing Company,Raleigh,North Carolina,35.809712,-78.618223,GcIGHB,Micro Brewery
+Jordan Lake Brewing Company,Cary,North Carolina,35.7902816,-78.7758438,1rgQ2t,Micro Brewery
+Rock Creek Brewing Company,Raleigh,North Carolina,35.809712,-78.618223,sw14Qc,Micro Brewery
+Habitat Tavern and Commons,Asheville,North Carolina,35.6005152,-82.5549742,eBPECK,Micro Brewery
+Biltmore Brewing Company,Asheville,North Carolina,35.557734,-82.580672,cqA8ox,Office
+Bold Missy Brewery,Charlotte,North Carolina,35.2492964,-80.7966386,GV82Ll,Micro Brewery
+TomCat Brewing Company,Raleigh,North Carolina,35.809712,-78.618223,7ZSgjU,Micro Brewery
+Satulah Mountain Brewing Company,Highlands,North Carolina,35.0538964,-83.1954328,CxfQef,Brewpub
+Quick Trigger Brewing Company,Ahoskie,North Carolina,36.286113,-76.986475,V8Zeed,Micro Brewery
+Bessemer City Brewing,Bessemer City,North Carolina,35.284149,-81.286603,Q727rZ,Micro Brewery
+G2B Restaurant & Brewery,Durham,North Carolina,35.9647948,-78.9547817,BEJlt3,Brewpub
+Angry Troll Brewing,Elkin,North Carolina,36.2443351,-80.8487633,wJS1Me,Micro Brewery
+Sycamore Brewing,Charlotte,North Carolina,35.208721,-80.862753,2Qkw10,Micro Brewery
+Hugger Mugger Brewing Company,Sanford,North Carolina,35.478711,-79.178678,bJgHxR,Micro Brewery
+Bill's Front Porch,Wilmington,North Carolina,34.2423157,-77.8923775,M5k56w,Micro Brewery
+Hams Brewhouse,Greenville,North Carolina,35.608278,-77.3731619,GohZ7B,Micro Brewery
+217 Brew Works,Wilson,North Carolina,35.7229467,-77.9121525,ajBhPo,Micro Brewery
+Seaboard Taproom & Wine Bar,Matthews,North Carolina,35.1175931,-80.7213451,D2uVZF,Micro Brewery
+Salty Turtle Beer Co.,Surf City,North Carolina,34.4433834,-77.5608801,RbLIUa,Micro Brewery
+Newgrass Brewing Co.,Shelby,North Carolina,35.290221,-81.539978,j3eQCh,Micro Brewery
+Lenny Boy Brewing Co.,Charlotte,North Carolina,35.201444,-80.873595,MOM2Mw,Micro Brewery
+Kind Beer Distributing,Charlotte,North Carolina,35.265226,-80.759962,UOIwZb,Office
+Lake Norman Brewing Company,Mooresville,North Carolina,35.6244756,-80.8034742,TBOcTV,Micro Brewery
+Old North State Winery & Brewery,Mount Airy,North Carolina,36.501921,-80.608282,gv1egz,Micro Brewery
+Neuse River Brewing Company,Raleigh,North Carolina,35.8041774,-78.6328332,Ym0fEg,Micro Brewery
+Other Side of the Moon Brewery,Clemmons,North Carolina,36.0745756,-80.3906366,pZGs5j,Micro Brewery
+Compass Rose Brewery,Raleigh,North Carolina,35.883935,-78.582712,nPSHXY,Micro Brewery
+GBrewhouse,Peletier,North Carolina,34.7293,-77.075003,5V7Qcw,Micro Brewery
+Preyer Brewing Company,Greensboro,North Carolina,36.079488,-79.793932,ZRW59q,Micro Brewery
+Cabarrus Brewing Company,Concord,North Carolina,35.4158214,-80.6058123,hu5Jgx,Micro Brewery
+Starpoint Brewing,Carrboro,North Carolina,35.873854,-79.08368,2nQ997,Nano Brewery
+Bull City Ciderworks,Durham,North Carolina,35.9909566,-78.8993013,IjjCkQ,Cidery
+Jolly Roger Brew,Mooresville,North Carolina,35.5860756,-80.8657128,NUoApN,Micro Brewery
+Haw River Farmhouse Ales,Saxapahaw,North Carolina,35.946722,-79.319075,RzRrsp,Micro Brewery
+Bad Bishop Brewing,Mebane,North Carolina,36.1012119,-79.269674,YrFk9G,Micro Brewery
+Bark Brewing Company,Greensboro,North Carolina,36.0617081,-79.8438328,HM5BbV,Micro Brewery
+Bombshell Beer Company,Holly Springs,North Carolina,35.6582889,-78.8367829,JLf9YB,Micro Brewery
+Thirty Three Brewing Co.,Mooresville,North Carolina,35.5902215,-80.792242,BAyYIh,Micro Brewery
+Koi Brewing Co,Rocky Mount,North Carolina,35.938012,-77.804379,CIdnUD,Micro Brewery
+Yellow Sun Brewing Co,Rutherfordton,North Carolina,35.36662,-81.958449,PoQAbZ,Micro Brewery
+American Honor Beer Company,SE Hickory,North Carolina,35.735392,-81.3258422,8nYps3,Micro Brewery
+Twenty-Six Acres Brewing Company,Concord,North Carolina,35.388337,-80.723158,288yl0,Micro Brewery
+Turgua Brewing Co,Fairview,North Carolina,35.5269891,-82.364124,BNc6fk,Micro Brewery
+Appalachian Mountain Brewery,Boone,North Carolina,36.2033443,-81.6685954,mcYO9v,Micro Brewery
+1789 Brewery & Taphouse,Statesville,North Carolina,35.7826363,-80.8872959,eRrmuR,Micro Brewery
+Nickelpoint Brewing Co.,Raleigh,North Carolina,35.804402,-78.633663,NTO6Fr,Micro Brewery
+Burlington Beer Works,Burlington,North Carolina,36.03,-79.48,Glab3s,Micro Brewery
+Craggie Brewing Company,Asheville,North Carolina,35.5911984,-82.5559403,lsziMe,Micro Brewery
+First Coast Brewing,Wilmington,North Carolina,34.23497,-77.945992,T0Qftd,Micro Brewery
+BearWaters Brewing Company,Canton,North Carolina,35.5313019,-82.8426478,jDg4xl,Micro Brewery
+Ben's Tune Up,Asheville,North Carolina,35.5913625,-82.555786,VP2DMk,Micro Brewery
+Winding Creek Brewing Co,Columbus,North Carolina,35.2541114,-82.1958573,7il1WB,Micro Brewery
+New Sarum Brewing,Salisbury,North Carolina,35.666689,-80.468105,kVLhDj,Micro Brewery
+Sanctuary Brewing Company,Hendersonville,North Carolina,35.3147592,-82.4588602,vloref,Micro Brewery
+Steve and Clark's Brew Pub and Sausage Co. #2,Durham,North Carolina,35.99958,-78.908086,1PXsT9,Micro Brewery
+King Canary Brewing Company,Mooresville,North Carolina,35.5705815,-80.8684581,VDojZD,Micro Brewery
+Pitt Street Brewing Company,Greenville,North Carolina,35.6094137,-77.3771667,knEKVM,Micro Brewery
+Wooden Robot Brewery,Charlotte,North Carolina,35.2166767,-80.856644,zxMohP,Micro Brewery
+Roth Brewing Company,Raleigh,North Carolina,35.895661,-78.745316,GThxmF,Micro Brewery
+White Elephant Beer Company,Mount Airy,North Carolina,36.5005979,-80.609098,6zQbFx,Micro Brewery
+Heinzelmännchen Brewery,Sylva,North Carolina,35.3737917,-83.2225136,XFY63m,Micro Brewery
+Naked Apple Hard Cider,Flat Rock,North Carolina,35.271228,-82.441508,ThMAOJ,Cidery
+Heist Brewery,Charlotte,North Carolina,35.245827,-80.808967,3Rjk1o,Brewpub
+Outer Banks Brewing Station,Kill Devil Hills,North Carolina,36.009996,-75.658754,Rew3Ib,Brewpub
+New Anthem Beer Project,Wilmington,North Carolina,34.2340165,-77.9477633,zjHu4E,Micro Brewery
+Double Barley Brewing,Smithfield,North Carolina,35.5667492,-78.3380203,zwAzew,Micro Brewery
+Starrlight Mead,Pittsboro,North Carolina,35.7269418,-79.1752021,Hdz6Zk,Meadery
+Hoppy Trout Brewing Company,Andrews,North Carolina,35.200614,-83.826531,404w1Y,Micro Brewery
+Currahee Brewing Co,Franklin,North Carolina,35.1876125,-83.3719159,pMdJig,Micro Brewery
+OysterHouse Brewing Company,Asheville,North Carolina,35.5789513,-82.5888579,zCcJrf,Brewpub
+Eleven Lakes Brewing,Cornelius,North Carolina,35.4547133,-80.859866,soqqVC,Micro Brewery
+All Sevens Brewing,Asheville,North Carolina,35.578687,-82.59428,LDLZb4,Nano Brewery
+Suffolk Punch,Charlotte,North Carolina,35.2004683,-80.869111,zuFqe6,Restaurant/Ale House
+Resident Culture,Charlotte,North Carolina,35.2201419,-80.8055087,wH4NHi,Micro Brewery
+Snowbird Mountains Brewery,Andrews,North Carolina,35.201452,-83.825497,B5TwAS,Micro Brewery
+Lazy Hiker Brewing Co.,Franklin,North Carolina,35.180679,-83.384245,VMeZHo,Micro Brewery
+Highland Brewing Company,Asheville,North Carolina,35.571062,-82.4981899,fJYG8Y,Micro Brewery
+Lake Gaston Brewing Company,Fayetteville,North Carolina,35.0530293,-78.8791907,f5DoHi,Micro Brewery
+Wise Man Brewing,Winston-Salem,North Carolina,36.104876,-80.245385,WDbiXY,Micro Brewery
+One World Brewing,Asheville,North Carolina,35.594796,-82.552285,RkB8DB,Micro Brewery
+Legion Brewing,Charlotte,North Carolina,35.218387,-80.812963,A4kfNJ,Nano Brewery
+Edward Teach Brewing,Wilmington,North Carolina,34.2426565,-77.9453171,wEuyjp,Micro Brewery
+Blind Squirrel,Plumtree,North Carolina,36.027199,-82.009252,gHtsql,Nano Brewery
+Southern Pines Brewing Company,Southern Pines,North Carolina,35.187027,-79.3718109,hJaj9K,Micro Brewery
+Regulator Brewing Company,Hillsborough,North Carolina,36.0754183,-79.0997347,JdJXIl,Micro Brewery
+Kettell Beerworks,Banner Elk,North Carolina,36.1661659,-81.8640772,SwM8Ku,Micro Brewery
+Bull City Burger and Brewery,Durham,North Carolina,35.995445,-78.899939,eu1cAn,Brewpub
+Medieval Brewing Company,Mooresville,North Carolina,35.576488,-80.82093,vx2LSC,Micro Brewery
+Lost Province Brewing Co,Boone,North Carolina,36.219076,-81.6835445,YGl9bd,Micro Brewery
+Four Friends Brewing,Charlotte,North Carolina,35.12048,-80.9595499,hcCgPK,Micro Brewery
+Trollingwood Brewing Company,Greenville,North Carolina,35.612661,-77.3663538,AaTxl4,Micro Brewery
+High Tide Brewing Co.,Jacksonville,North Carolina,34.780164,-77.425459,muCluV,Micro Brewery
+Good Hops Brewing LLC,Carolina Beach,North Carolina,34.041266,-77.904635,PDva3w,Micro Brewery
+Black Creek Brewery,Roxboro,North Carolina,36.393744,-78.982759,4LmZeF,Micro Brewery
+Flytrap Brewing,Wilmington,North Carolina,34.240339,-77.9455104,1XeODN,Micro Brewery
+Oak & Dagger Public House,Raleigh,North Carolina,35.7892684,-78.6394065,QR49h5,Micro Brewery
+Flat Top Brewing Company,Elk,North Carolina,36.165885,-81.863956,drNCMo,Micro Brewery
+"Boone Brewing Co, LLC DBA Blowing Rock Brewing Co.",Blowing Rock,North Carolina,36.135129,-81.6776059,TxaTZN,Office
+Ole Shed Brewing Company,Dallas,North Carolina,35.316155,-81.219127,18bX0K,Micro Brewery
+Brüeprint Brewing Company,Apex,North Carolina,35.7121944,-78.851764,sUoofg,Micro Brewery
+Aviator Brewing Company,Fuquay-Varina,North Carolina,35.619701,-78.808539,XRTc94,Micro Brewery
+Broomtail Craft Brewery,Wilmington,North Carolina,34.2598405,-77.8468914,UoXcp7,Micro Brewery
+Triskelion Brewing Company,Hendersonville,North Carolina,35.3204813,-82.457796,pKTvAn,Micro Brewery
+Mother Earth Brewing (North Carolina),Kinston,North Carolina,35.262656,-77.5825349,LZ4UuN,Micro Brewery
+The Barking Duck Brewing Co.,Mint Hill,North Carolina,35.1524824,-80.6800688,78GQyY,Micro Brewery
+Fox & Crow Brewery,Myrtle Grove,North Carolina,34.1346157,-77.8816518,jRzF7z,Micro Brewery
+Crank Arm Brewing Company,Raleigh,North Carolina,35.7755269,-78.6440439,UPUlc4,Micro Brewery
+Beech Mountain Brewing Co.,Beech Mountain,North Carolina,36.1946784,-81.8779951,hCCFgr,Micro Brewery
+Thirsty Nomad Brewing Co.,Charlotte,North Carolina,35.188365,-80.891133,y5QrQr,Nano Brewery
+Balsam Falls Brewing Company,Sylva,North Carolina,35.3737395,-83.2220743,06f9U6,Nano Brewery
+Sugar Creek Brewing Company,Charlotte,North Carolina,35.1854212,-80.8809845,CisTjj,Micro Brewery
+Ginger's Revenge,Ashville,North Carolina,35.6143732,-82.5747017,QSFyjY,Micro Brewery
+Hosanna Brewing Company,Fuquay-Varina,North Carolina,35.6164061,-78.735189,xgO0Do,Brewpub
+Innovation Brewing,Sylva,North Carolina,35.3739195,-83.2204756,Y9Mg9A,Micro Brewery
+Red Hill Brewing Co,Concord,North Carolina,35.4103958,-80.5806013,DYs3U3,Micro Brewery
+D9 Brewing Company,Cornelius,North Carolina,35.461202,-80.847373,AT5UIb,Micro Brewery
+Fonta Flora Brewery,Morganton,North Carolina,35.7478209,-81.6914461,mmoIS2,Micro Brewery
+Pinehurst Brewing Company,Pinehurst,North Carolina,35.199406,-79.4700809,Mxt3P9,Restaurant/Ale House
+BottleTree Beer Co,Tryon,North Carolina,35.2089443,-82.2381476,sxggDn,Office
+Tobacco Road Brewery,Raleigh,North Carolina,35.7825535,-78.6463897,F99d01,Micro Brewery
+French Broad River Brewing Company,Asheville,North Carolina,35.5664832,-82.5374074,MstViE,Micro Brewery
+Bear Creek Brews,Bear Creek,North Carolina,35.6518126,-79.3329623,9GewxD,Nano Brewery
+Burning Blush Brewery,Mills River,North Carolina,35.3837231,-82.5689964,Xgj486,Micro Brewery
+Blackjack Brewing Company,Raleigh,North Carolina,35.8087141,-78.6211297,qPHjWf,Micro Brewery
+Sapphire Mountain Brewing Co,Sapphire,North Carolina,35.116492,-83.017791,egQUIK,Restaurant/Ale House
+Loe's Brewing Company,Lenoir,North Carolina,35.9127763,-81.5423422,QsGPS1,Brewpub
+Frog Level Brewing Company,Waynesville,North Carolina,35.4934583,-82.9910063,2g1fge,Micro Brewery
+Lexington Avenue Brewery,Asheville,North Carolina,35.5961621,-82.5532866,kFqi12,Brewpub
+Front Street Brewery,Wilmington,North Carolina,34.235752,-77.949088,77YOgn,Micro Brewery
+Rocky Mount Brewmill,Rocky Mount,North Carolina,35.95876,-77.803708,WQ11NY,Micro Brewery
+Pilot Brewing,Charlotte,North Carolina,35.2209747,-80.8154469,utQM8n,Nano Brewery
+The Dreamweaver's Brewery,Waxhaw,North Carolina,34.9245935,-80.7434019,8jjpWz,Micro Brewery
+Boylan Bridge Brewpub,Raleigh,North Carolina,35.7784641,-78.6490665,0WRKfW,Brewpub
+Southern Peak Brewery,Apex,North Carolina,35.7474177,-78.8438049,NNBRpr,Micro Brewery
+Gibb's Hundred Brewing Company,Greensboro,North Carolina,36.065851,-79.791772,fsNEt0,Micro Brewery
+Fullsteam Brewery,Durham,North Carolina,36.0031092,-78.8995998,HUCz2L,Micro Brewery
+Pinehurst Village Brewery,Aberdeen,North Carolina,35.12637,-79.420649,lKsltx,Micro Brewery
+Beer Army,Trenton,North Carolina,35.0687878,-77.3658761,iHEJZm,Micro Brewery
+Cape Fear Wine & Beer,Willow Spring,North Carolina,35.562041,-78.622314,mFB8k3,Micro Brewery
+Dukbone Brewing Co.,Charlotte,North Carolina,35.2270869,-80.8431267,YIQlOo,Micro Brewery
+Four Saints Brewing Company,Asheboro,North Carolina,35.7040289,-79.8145682,KZlIgk,Micro Brewery
+Triple C Brewing Company,Charlotte,North Carolina,35.200972,-80.869119,wtU6qB,Micro Brewery
+Mystery Brewing Company,Hillsborough,North Carolina,36.0694027,-79.1136652,L29NU9,Micro Brewery
+Pisgah Brewing Company,Black Mountain,North Carolina,35.608487,-82.361055,2qlMjT,Micro Brewery
+Wedge Brewing Company,Asheville,North Carolina,35.5861437,-82.5663199,yO2ogr,Micro Brewery
+Weeping Radish Farm Brewery,Grandy,North Carolina,36.2197049,-75.869811,Fr3ygj,Micro Brewery
+Steel String Brewery,Carrboro,North Carolina,35.910205,-79.072279,BWvj93,Micro Brewery
+Boojum Brewing Company,Waynesville,North Carolina,35.4904458,-82.9875762,ZXEwp8,Tasting Room
+Waterman's Brewing Co,Wilmington,North Carolina,34.2210956,-77.8205824,1i8Y2X,Micro Brewery
+Primal Brewery,Huntersville,North Carolina,35.4370891,-80.8436834,gfH8Gd,Micro Brewery
+Shade Tree Brewing Co.,Durham,North Carolina,35.995275,-78.896014,nqeXIU,Micro Brewery
+Waterline Brewing Company,Wilmington,North Carolina,34.225565,-77.948452,IyzwQ4,Micro Brewery
+3rd Rock Brewing Company,Trenton,North Carolina,35.0687878,-77.3658761,QwJfK8,Micro Brewery
+White Street Brewing Company,Wake Forest,North Carolina,35.977704,-78.509865,QANLRv,Micro Brewery
+3rd Degree Brewhouse,Fuquay-Varina,North Carolina,35.5968154,-78.7612138,f6tQ4t,Micro Brewery
+Brevard Brewing Co.,Brevard,North Carolina,35.2333243,-82.7333116,enoxkn,Micro Brewery
+The Sneak E Squirrel,Sylva,North Carolina,35.3730154,-83.2359007,OZbzBF,Micro Brewery
+Little Brother Brewing,Greensboro,North Carolina,36.0686325,-79.7908848,2nAbvS,Micro Brewery
+Good Vibes Brew,Wilmington,North Carolina,34.2387648,-77.8891697,H7XluE,Micro Brewery
+XII Tribes Brewing Company,High Point,North Carolina,35.9623181,-79.9752212,dD3bU7,Micro Brewery
+Lucky City Brewing Co-op,Reidsville,North Carolina,36.3604961,-79.6652109,U0g9w4,Micro Brewery
+Carolina Beer Company,Mooresville,North Carolina,35.6223381,-80.8018611,h1EJ6z,Micro Brewery
+Nantahala Brewing Company,Bryson City,North Carolina,35.431176,-83.446072,gINfbT,Micro Brewery
+Ivory Tower Brewery,Boone,North Carolina,36.212318,-81.680083,tRGa3f,Micro Brewery
+Perpetual Brewing,Durham,North Carolina,35.9940329,-78.898619,9hNPxR,Micro Brewery
+Brewers At 4001 Yancey,Charlotte,North Carolina,35.18632,-80.8781632,SR6chr,Brewpub
+Ironclad Brewery,Wilmington,North Carolina,34.2370129,-77.9479162,rqVDmz,Micro Brewery
+Nocturnal Brewing,Hayesville,North Carolina,35.045416,-83.8189315,qaxiOI,Micro Brewery
+Carolina Brewing Company,Holly Springs,North Carolina,35.6557346,-78.8543188,5ITsFt,Micro Brewery
+Westbend Vineyards & Brewhouse,Lewisville,North Carolina,36.089257,-80.504006,VkzOD6,Micro Brewery
+The Unknown Brewing,Charlotte,North Carolina,35.2205488,-80.8583586,FOC78c,Micro Brewery
+OMMI Brewing Company,Mooresville,North Carolina,35.5848596,-80.8100724,UAE1wQ,Micro Brewery
+Turgua Brewing Co.,Fairview,North Carolina,35.5269891,-82.364124,DyOhRo,Micro Brewery
+Holly Springs Nano Brewing,Holly Springs,North Carolina,35.651521,-78.833329,3hiVzD,Nano Brewery
+Tight Lines Brewing Company,Morehead City,North Carolina,34.7209549,-76.712068,vRmpp9,Micro Brewery
+"Bayne Brewing Company, LLC",Cornelius,North Carolina,35.4800528,-80.8911468,6Twq5r,Micro Brewery
+Regimental Brewing Company,Cornelius,North Carolina,35.4646088,-80.8710994,infeFI,Micro Brewery
+Fermented Nonsense Brewing,Arden,North Carolina,35.4795619,-82.5455483,mfAHlu,Nano Brewery
+Raleigh Brewing Company,Raleigh,North Carolina,35.7928582,-78.6869788,ST1lih,Micro Brewery
+Tarboro Brewing Company,Tarboro,North Carolina,35.8968236,-77.5358049,L7OSOj,Micro Brewery
+Brice's Brewing Company,Raleigh,North Carolina,35.7248866,-78.6597022,xR7GYA,Micro Brewery
+Hi-Wire Brewing,Asheville,North Carolina,35.5914,-82.5559911,ueswRW,Micro Brewery
+Rusted Mill Artisan Ales,Gastonia,North Carolina,35.2156681,-81.2408689,Zkq4hb,Micro Brewery
+Huske Hardware House Restaurant and Brewery,Fayetteville,North Carolina,35.053389,-78.882968,uvpHuL,Brewpub
+Vecino Brewing Co.,Carrboro,North Carolina,35.9102223,-79.0683799,C4Ysr2,Micro Brewery
+Mad County Brewing,Marshall,North Carolina,35.7973395,-82.6848582,OchfXw,Micro Brewery
+Ole Dallas Brewery,Dallas,North Carolina,35.316155,-81.219127,S1pVxl,Micro Brewery
+White Labs Kitchen and Taps,Asheville,North Carolina,35.5911759,-82.5489339,4G3hyx,Micro Brewery
+Mad Mole Brewing,Wilmington,North Carolina,34.2122831,-77.8341373,dG9Hqo,Micro Brewery
+Funguys Brewery,Raleigh,North Carolina,35.8135681,-78.6248455,fmOq03,Micro Brewery
+White Rabbit Brewing Company,Angier,North Carolina,35.5078302,-78.7489493,Y3doTs,Micro Brewery
+Valley River Brewery & Eatery,Murphy,North Carolina,35.08874,-84.0352909,0OJXEg,Micro Brewery
+Old Armor Beer Company,Kannapolis,North Carolina,35.4963174,-80.6259926,PSSzlD,Nano Brewery
+The Duck-Rabbit Craft Brewery,Farmville,North Carolina,35.6004215,-77.5962854,rBxNNF,Micro Brewery
+Lonerider Brewing Company,Raleigh,North Carolina,35.9036809,-78.7625869,d25euF,Micro Brewery
+Deep River Brewing Company,Clayton,North Carolina,35.659335,-78.46686,bLbQyH,Micro Brewery
+Sub Noir Brewing,Raleigh,North Carolina,35.8087147,-78.6234312,DfKF7i,Nano Brewery
+Lynnwood Brewing Concern,Raleigh,North Carolina,35.8706178,-78.7174046,1BSxpy,Brewpub
+Armored Cow Brewing Co,Charlotte,North Carolina,35.3091515,-80.7542694,7Mnqfp,Micro Brewery
+Mason Jar Lager Company,Fuquay Varina,North Carolina,35.595338,-78.7954471,xc5D82,Micro Brewery
+Gizmo Brew Works,Raleigh,North Carolina,35.8965383,-78.7441045,ehcJKn,Micro Brewery
+Thirsty Souls Community Brewing,Mount Airy,North Carolina,36.5008642,-80.6088192,KEWA89,Micro Brewery
+Dry County Brewing Company,Spruce Pine,North Carolina,35.9156458,-82.0631016,Ic6Tku,Brewpub
+The Mash House Brewery & Chophouse,Fayetteville,North Carolina,35.0706848,-78.954515,RIkcvC,Brewpub
+Bright Light Brewing Company,Fayetteville,North Carolina,35.0519838,-78.8833052,VnbHp5,Micro Brewery
+Urban Orchard Cider Company,Asheville,North Carolina,35.5794769,-82.574306,fSMoAX,Cidery
+Mica Town Brewing,Marion,North Carolina,35.684236,-82.0096962,StUhVG,Micro Brewery
+Coors Brewing Company,Charlotte,North Carolina,35.1847149,-80.8125,avMkil,Micro Brewery
+Small Batch Beer Company,Winston-Salem,North Carolina,36.0997242,-80.2471223,cBMlBY,Nano Brewery
+Hoots Roller Bar & Beer Company,Winston-Salem,North Carolina,36.1038713,-80.2597512,EV5ZKz,Micro Brewery
+Mills River Brewery,Mills River,North Carolina,35.3817868,-82.564492,AnpYPs,Micro Brewery
+Buchi Kombucha,Marshall,North Carolina,35.8113285,-82.6759605,1Ct2PU,Micro Brewery
+Lumina Brewing Company,Wilmington,North Carolina,34.253835,-77.856525,zkjGKM,Micro Brewery
+Homeplace Beer Company,Burnsville,North Carolina,35.9161561,-82.2998487,6wZAQJ,Micro Brewery
+American Honor Ale House and Brewery,Hickory,North Carolina,35.735392,-81.3258422,dXZQ4L,Micro Brewery
+NoDa Brewing Company,Charlotte,North Carolina,35.25157,-80.812472,pcrctk,Micro Brewery
+12 Bones Brewing,Arden,North Carolina,35.4662139,-82.5164274,9xaRRt,Brewpub
+Blue Ghost Brewing Company,Flecher,North Carolina,35.4373578,-82.5308257,kHGmaY,Production Facility
+Collaboratory CANarchy Craft Brewery Collective,Asheville,North Carolina,35.5961621,-82.5532866,0ukruC,Brewpub
+Altamont Brewing Company,Asheville,North Carolina,35.5815373,-82.6043239,l14zbU,Micro Brewery
+Pig Pounder Brewery,Greensboro,North Carolina,36.084245,-79.804382,NKnnkv,Micro Brewery
+Wicked Weed Brewing Company,Asheville,North Carolina,35.591695,-82.551084,zeWbuM,Micro Brewery
+Yellow Truck Brewing Company,Asheville,North Carolina,35.5949839,-82.5495848,byFQ3n,Micro Brewery
+Booneshine Brewing Company,Boone,North Carolina,36.2015767,-81.6710582,Qv7qHf,Tasting Room
+R & D Brewing,Raleigh,North Carolina,35.8002347,-78.6358293,5rX6XO,Micro Brewery
+New Village Brewery and Taproom,Oriental,North Carolina,35.029295,-76.694438,rOLOWd,Micro Brewery
+Waterway Brewing Company,Pfafftown,North Carolina,36.16011,-80.357784,qbh2Mf,Micro Brewery
+Hob Knob Brewing Company,Cornelius,North Carolina,35.48158,-80.859022,SvPqW6,Micro Brewery
+Whistle Hop Brewing Company,Fairview,North Carolina,35.523292,-82.417545,yWrMiq,Micro Brewery
+Railhouse Brewery,Aberdeen,North Carolina,35.130498,-79.42713,pLDF9A,Micro Brewery
+Lookout Brewing Company,Black Mountain,North Carolina,35.619249,-82.317909,wCJ57q,Micro Brewery
+Wilmington Brewing Company,Wilmington,North Carolina,34.2213327,-77.8867483,k5p3Fy,Micro Brewery
+High Branch Brewing,Concord,North Carolina,35.4150032,-80.6027893,bKdrSr,Micro Brewery
+Burial Beer Co.,Asheville,North Carolina,35.588049,-82.553796,YW1tHH,Brewpub
+Lincoln Brewing Co.,Raleigh,North Carolina,35.8733962,-78.579782,jcF9Q6,Micro Brewery
+Northern Outer Banks Brewing Company,Corolla,North Carolina,36.27976,-75.799026,tWjuVI,Micro Brewery
+Clouds Brewing,Raleigh,North Carolina,35.7825984,-78.6453749,B5jTO7,Restaurant/Ale House
+Eola Beer Company,Lenoir,North Carolina,35.912819,-81.54234,p9zlLd,Brewpub
+Granite Falls Brewing Company,Granite Falls,North Carolina,35.7948892,-81.4299923,Kax7jD,Brewpub
+Twin Leaf Brewery,Asheville,North Carolina,35.5894369,-82.554528,s5lxSd,Brewpub
+Blue Mountain Pizza & Brewpub,Weaverville,North Carolina,35.6982563,-82.5602166,5xVVQL,Brewpub
+Tipping Point Tavern,Waynesville,North Carolina,35.492158,-82.9865899,pz33H9,Brewpub
+Free Range Brewing,Charlotte,North Carolina,35.240505,-80.8133063,EHyEDE,Nano Brewery
+Black Mountain Cider + Mead,Black Mountain,North Carolina,35.6178951,-82.3212302,4w2uep,Cidery
+Red Clay Ciderworks,Charlotte,North Carolina,35.194471,-80.874864,xrLwng,Cidery
+GoodRoad CiderWorks,Charlotte,North Carolina,35.184917,-80.879441,t5JPDJ,Cidery
+Noble Cider,Asheville,North Carolina,35.602136,-82.62465,pd5sQn,Cidery
+Archetype Brewing Company,Asheville,North Carolina,35.5782143,-82.5750885,Cwhr9F,Micro Brewery
+Sweet Union Brewing Company,Indian Trail,North Carolina,35.0853118,-80.6613229,SyVWsn,Micro Brewery
+Big Boss Brewing Company,Raleigh,North Carolina,35.810418,-78.617923,pwfPCD,Micro Brewery
+The Glass Jug Beer Lab,Durham,North Carolina,35.8896949,-78.897126,MsdyUZ,Micro Brewery
+Good Road Ciderworks,Charlotte,North Carolina,35.1849231,-80.8794118,UqRU9L,Micro Brewery
+Fiddlin' Fish Brewery,Winston-Salem,North Carolina,36.1042576,-80.246753,xyGdVR,Micro Brewery
+"Blackwater Cider, LLC",Windsor,North Carolina,35.997993,-76.947,FLYvq1,Micro Brewery
+1718 Brewing Ocracoke,Ocracoke,North Carolina,35.1074834,-75.9718368,D2QioX,Micro Brewery
+Shortway Brewing Company,Newport,North Carolina,34.7911591,-76.8593178,pM9Wxy,Micro Brewery
+Morgan Ridge Railwalk Brewery & Eatery,Salisbury,North Carolina,35.6693812,-80.4645875,iTO5C7,Micro Brewery
+Eluvium Brewing Company,Weaverville,North Carolina,35.6975495,-82.56102,dok14D,Micro Brewery
+"Makai Brewing Company, LLC",OCEAN ISLE BEACH,North Carolina,33.9535051,-78.4598753,7x4BgP,Micro Brewery
+Hops Grill & Brewery,Matthews,North Carolina,35.1315842,-80.7113447,Aiq0ix,Brewpub
+Bold Rock Hard Cider,Mills River,North Carolina,35.377121,-82.5605054,XnBFll,Cidery
+Crystal Coast Brewing Company,Morehead City,North Carolina,34.7214308,-76.7115145,5zPMkZ,Micro Brewery
+Nauti Dog Brewing Co.,Winterville,North Carolina,35.527621,-77.4029,tjrFd3,Micro Brewery
+Asheville Brewing Company,Asheville,North Carolina,35.6221051,-82.5537092,WDrFlD,Brewpub
+Blowing Rock Brewing,Blowing Rock,North Carolina,36.135129,-81.6776059,p2bHtA,Office
+Olde Hickory Brewery,Hickory,North Carolina,35.732019,-81.340443,ichhfQ,Restaurant/Ale House
+Petty Thieves Brewing Co.,Charlotte,North Carolina,35.2263714,-80.7990185,jsSAuY,Micro Brewery
+Carolina Brewery,Pittsboro,North Carolina,35.743611,-79.164712,JKx7GQ,Brewpub
+Ponysaurus Brewing,Durham,North Carolina,35.989615,-78.895294,ge5JEA,Brewpub
+Natty Greene's Brewing Co.,Greensboro,North Carolina,36.0617367,-79.8165003,rfXHD7,Production Facility
+Olde Hickory Brewery,Hickory,North Carolina,35.731722,-81.341977,ichhfQ,Production Facility
+Protagonist Beer,Charlotte,North Carolina,35.2470795,-80.8062437,jKLERr,Micro Brewery
+Mystery Brewing Company,Hillsborough,North Carolina,36.072351,-79.111078,L29NU9,Tasting Room
+Natty Greene's Brewing Co.,Raleigh,North Carolina,35.7825643,-78.6464497,rfXHD7,Brewpub
+Red Buffalo Brewing Company,Statesville,North Carolina,35.7851138,-80.8882405,u0JoLA,Micro Brewery
+Red Hare Brewing Company,Shallotte,North Carolina,33.9731187,-78.3859565,W8qQNg,Micro Brewery
+Ruff'ton Brewhouse,Rutherfordton,North Carolina,35.36766,-81.957534,c1otBC,Micro Brewery
+Salud Beer Shop,Charlotte,North Carolina,35.2477994,-80.8040482,9wAMsN,Nano Brewery
+Sidetracked Brewery,MORGANTON,North Carolina,35.7422235,-81.6819897,VVT7Jn,Nano Brewery
+Sideways Farm & Brewery,Etowah,North Carolina,35.3082385,-82.6094952,Ugtc8z,Nano Brewery
+Skull Camp Brewing,Elkin,North Carolina,36.2835665,-80.8525459,Ibch0C,Micro Brewery
+Skytown Beer Company,Wilmington,North Carolina,34.2474075,-77.8820578,eTleEf,Brewpub
+Aviator Brewing Company,Fuquay-Varina,North Carolina,35.5923185,-78.7843771,XRTc94,Restaurant/Ale House
+Thirsty Monk Brewery,Asheville,North Carolina,35.5033316,-82.522118,sQlYnZ,Production Facility
+Catawba Brewing Co.,Asheville,North Carolina,35.589077,-82.5536957,OCiWW5,Micro Brewery
+Aviator Brewing Company,Fuquay-Varina,North Carolina,35.5929549,-78.7940578,XRTc94,Tasting Room
+Birdsong Brewing Co.,Charlotte,North Carolina,35.230652,-80.826536,2U69bM,Micro Brewery
+Boondocks Brewing,West Jefferson,North Carolina,36.400784,-81.492077,Pf7pos,Brewpub
+Lynnwood Brewing Concern,Raleigh,North Carolina,35.8087141,-78.6211297,1BSxpy,Micro Brewery
+Tar Banks Brewing Co.,Louisburg,North Carolina,36.0992608,-78.3005315,7YjMl7,Micro Brewery
+Kernersville Brewing Company,Kernersville,North Carolina,36.12176,-80.0721615,Yg2GLj,Micro Brewery
+Tek Mountain Brewing,Wilmington,North Carolina,34.2430338,-77.8213126,QM3KJY,Nano Brewery
+Collaboratory by CANarchy Craft Brewery Collective,Asheville,North Carolina,35.5961621,-82.5532866,p2LkfV,Micro Brewery
+Full Moon Brewery,Manteo,North Carolina,35.909283,-75.669251,UkUMx0,Brewpub
+The Olde Mecklenburg Brewery,Charlotte,North Carolina,35.187442,-80.881973,3yerS2,Micro Brewery
+Thirsty Monk Brewery,Asheville,North Carolina,35.4863396,-82.5552093,sQlYnZ,Micro Brewery
+Tobacco Wood Brewing Co,Oxford,North Carolina,36.3105313,-78.5891943,EXhSwy,Micro Brewery
+Trophy Brewing Company,Raleigh,North Carolina,35.779672,-78.6534982,6jDZlV,Brewpub
+Trophy Brewing Company,Raleigh,North Carolina,35.76164,-78.657101,6jDZlV,Micro Brewery
+UpCountry Brewing Co.,Asheville,North Carolina,35.5815373,-82.6043239,EeNu7g,Micro Brewery
+Uptown Brewing Company,Greenville,North Carolina,35.6115248,-77.3733107,bxzsq8,Micro Brewery
+Vicious Fishes Brewery,Angier,North Carolina,35.5078302,-78.7489493,pEl3VV,Micro Brewery
+Wedge Brewing Company,Asheville,North Carolina,35.5775205,-82.5660508,yO2ogr,Micro Brewery
+Wicked Weed Brewing Company,Candler,North Carolina,35.545438,-82.6401209,zeWbuM,Micro Brewery
+Wrightsville Beach Brewery,WILMINGTON,North Carolina,34.210789,-77.836832,XXuW67,Brewpub
