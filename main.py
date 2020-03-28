@@ -1,30 +1,28 @@
-from flask import Flask, flash, redirect, render_template, jsonify, request, session, abort, send_from_directory, send_file 
+from flask import Flask, render_template, request
+import csv
 import json
-import pandas as pd
+import pandas as pd 
 
 app = Flask(__name__)
 
-class Datastore(): 
-    City=None
-    brewery_type=None
-data=Datastore()
+class Datastore():
+      brewery=None
+      city=None
+data=Datastore()  
 
-
-@application.route("/main",methods=['GET'])
-
-@application.route("/",methods=["GET"])
+@app.route('/', methods=["GET", "POST "])
 def homepage():
-    City = request.form.get('city', 'Raleigh')
-    brewery_type = request.form.get('brewery_type')
+      data.brewery = request.form.get('breweries', '')
+      data.city = request.form.get('city', '')
 
-    data.City=City
-    data.brewery_type=brewery_type
+      df = pd.read_csv('..\north_carolina_brweries\assets\data\nc_breweries_df.csv')
+      brewery = data.brewery
+      city = data.city
 
-    df = pd.read_csv('nc_breweries_df.csv')
+      df = df[df.brewery == brewery]
+      df = df[df.city == city]
 
-    #choose columns to keep
-    df = df[df.City == city]
-    df = df[df.brewery == brewery_type]
+      df = df[["breweries", "city"]]
 
 if __name__ == "__main__":
     app.run(debug=True)
