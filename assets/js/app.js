@@ -26,10 +26,22 @@ d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
             .rollup(function(v) { return v.length; })
             .entries(filtered);
 
-        // var ctx = document.getElementById("myChart");
-        // var myChart = new myChart(ctx, {
-        // });
-        console.log(filtered);
-        console.log(beersByType[0].key);
+        var labels = beersByType.map(beerType => beerType.key);
+        var data = beersByType.map(beerType => beerType.value);
+
+        var ctx = document.getElementById("myChart");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: "Number of Beers by Style",
+                    data: data
+                }],
+            }
+        });
+
+        console.log(labels);
+        console.log(data);
     });
 })
