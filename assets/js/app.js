@@ -1,6 +1,57 @@
 // initialize variables to reference DOM elements
 var dropdownMenu = d3.select("#selBrewery");
 
+// create table 
+function renderTable(dataset) {
+    // select the table header, overwrite any existing html
+    var thead = d3.select("thead");
+    thead.html("");
+
+    // append a new row
+    var row = thead.append("tr");
+
+    // use forEach to store the keys in as table headers
+    var firstItem = dataset[0];
+    Object.keys(firstItem).forEach(key => {
+        var cleanKey = key.replace("_", " ");
+        var cleanKey = cleanKey.toUpperCase();
+        var cell = row.append("th");
+        cell.text(cleanKey);
+    })
+
+    // select the table body, overwrite any existing html
+    var tbody = d3.select("tbody");
+    tbody.html("");
+
+    // use forEach to iterate thru data
+    dataset.forEach((item) => {
+        // append a new row to the table body
+        var row = tbody.append("tr");
+            
+        // use forEach to store each paired value in the sighting to a cell
+        Object.entries(item).forEach(([key, value]) => {
+            var cell = row.append("td");
+            cell.text(value);
+        });
+    });
+};
+
+function updateTable(selection, dataset) {
+    // overwrite existing table
+    var thead = d3.select("thead");
+    thead.html("");
+    var tbody = d3.select("tbody");
+    tbody.html("");
+
+    // filter dataset on selection
+    var tableFilter = dataset.filter(bl => bl.master_style === selection);
+
+    // render table using new dataset
+    renderTable(tableFilter);
+    console.log(tableFilter);
+}
+
+// initial data, plot load
 d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
     // sort breweries
     var breweries = brew_df.map(brewery => brewery.breweries);
@@ -13,12 +64,15 @@ d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
     });
 
     // retrieve first id to filter data on load
-    var selectedId = "p2bHtA" // CHANGE THIS LATER
+    var selectedId = "ichhfQ" // breweries.slice(0,1);
 
     // load beer list
     d3.csv("assets/data/nc_breweries_beer_list_v2.csv").then(function(beer_list) {
         // filter data
         var filtered = beer_list.filter(bl => bl.brewery_id === selectedId);
+
+        // render beer list table
+        renderTable(filtered);
 
         // nest data by beer style
         var beersByType = d3.nest()
@@ -114,10 +168,17 @@ d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
                 }
             }
         });
-        console.log(beer_list);
-        console.log(beersByType);
-        console.log(labels);
-        console.log(colors);
-        console.log(data);
+
+    // make bar chart interactive
+    document.getElementById("myChart").onclick = function (evt) {
+        var activePoints = myChart.getElementsAtEventForMode(evt, 'point', myChart.options);
+        var firstPoint = activePoints[0];
+        if (firstPoint == undefined) {
+            renderTable(filtered);
+            return;
+        }
+        var selectedBeer = myChart.data.labels[firstPoint._index];
+        updateTable(selectedBeer, filtered);
+    };
     });
 })
