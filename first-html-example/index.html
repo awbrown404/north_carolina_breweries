@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NC Craft Breweries and Beers</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="w3-container w3-sand">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style="background-image: url(http://clipart-library.com/images/rTnr6p66c.jpg); background-size: 100%;">
+        <h1 style="color: chartreuse">NC Craft Breweries and Beers</h1>
+        <h2 style="color: chartreuse"> Use The Interactive Charts Below To Find and Explore NC Craft Breweries </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <div class="well">
+          <h5>NC Craft Breweries</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      <div class="panel panel-primary text-center">
+        <div class="panel-heading">
+          <h3 class="panel-title">Brewery Info</h3>
+        </div>
+        <div id="sample-metadata" class="panel-body"></div>
+      </div>
+    </div>
+    <div class="col-md-9 text-center">
+      <div id="well">
+        <h4>Beer Visualization Goes Here</h4>
+    </div>
+
+
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>-->
+  <!--<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>-->
+  <!--<script src="../static/js/app.js"></script>-->
+
+</body>
+
+</html>
