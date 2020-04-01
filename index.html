@@ -22,7 +22,10 @@
             <div class="col-md-2 box1">
                 <div class="well">
                     <h5>Select a Brewery:</h5>
-                    <select id="selBrewery" style="width: 100%;" optionChanged(this.value)"></select>
+                    <select id="selBrewery" style="width: 100%;" onchange="optionChanged(this.value)"></select>
+                    <br></br>
+                    <p>Click on any of the columns in the bar chart to filter the selected brewery's beer list by that style of beer.
+                        Click anywhere in the whitespace to restore the full beer list for the selected brewery.</p>
                 </div>
             </div>
             <div class="col-md-10 box2">
