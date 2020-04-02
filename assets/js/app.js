@@ -1,6 +1,9 @@
 // initialize variables to reference DOM elements
 var dropdownMenu = d3.select("#selBrewery");
 
+// create global variable
+var myChart;
+
 // create table 
 function renderTable(dataset) {
     // select the table header, overwrite any existing html
@@ -48,114 +51,148 @@ function updateTable(selection, dataset) {
 
     // render table using new dataset
     renderTable(tableFilter);
-    console.log(tableFilter);
 }
 
 // handle change in dropdown menu
-function optionChanged(id) {
-    d3.csv("assets/data/nc_breweries_beer_list_v2.csv").then(function(beer_list) {
-        // sort data by master beer style
-        beer_list.sort((a, b) => {
-            if(a.master_style < b.master_style) {return -1;}
-            if(a.master_style > b.master_style) {return 1;}
-            return 0;
+function optionChanged(user_brew) {
+
+    d3.csv("assets/data/brewery_df.csv").then(function(brew_df) {
+        // retrieve brewery id using data
+        var breweryFilter = brew_df.filter(br => br.breweries === user_brew);
+        var selectedId = breweryFilter[0].brewery_id;
+
+        d3.csv("assets/data/beer_list_df.csv").then(function(beer_list) {
+            // sort data by master beer style
+            beer_list.sort((a, b) => {
+                if(a.master_style < b.master_style) {return -1;}
+                if(a.master_style > b.master_style) {return 1;}
+                return 0;
+            })
+
+            // filter data
+            var filtered = beer_list.filter(bl => bl.brewery_id === selectedId);
+
+            // render beer list table
+            renderTable(filtered);
+
+            // nest data by beer style
+            var beersByType = d3.nest()
+                .key(function(d) { return d.master_style; })
+                .rollup(function(v) { return v.length; })
+                .entries(filtered);       
+
+            // get beer styles
+            var labels = beersByType.map(beerType => beerType.key);
+
+            // map fill color to each style
+            var colors = labels.map(label => {
+                switch(label){
+                    case "Ale":
+                        // return "rgba(224, 162, 0, 0.6)";
+                        return("rgba(250, 250, 110, 0.6)");
+                    case "Hefeweizen":
+                        // return "rgba(252, 209, 95, 0.6)";
+                        return("rgba(251, 235, 95, 0.6)");
+                    case "IPA":
+                        // return "rgba(255, 174, 66, 0.6)";
+                        return("rgba(252, 219, 82, 0.6)");
+                    case "Kolsch":
+                        // return "rgba(138, 37, 40, 0.6)";
+                        return("rgba(252, 203, 71, 0.6)");
+                    case "Lager":
+                        // return "rgba(252, 225, 172, 0.6)";
+                        return("rgba(251, 188, 62, 0.6)");
+                    case "Other":
+                        // return "rgba(243, 229, 171, 0.6)";
+                        return("rgba(250, 172, 56, 0.6)");
+                    case "Pale Ale":
+                        // return "rgba(201, 160, 68, 0.6)";
+                        return("rgba(247, 156, 51, 0.6)");
+                    case "Porter":
+                        // return "rgba(91, 49, 48, 0.6)";
+                        return("rgba(244, 139, 49, 0.6)");
+                    case "Saison":
+                        // return "rgba(234, 86, 0, 0.6)";
+                        return("rgba(240, 123, 48, 0.6)");
+                    case "Stout":
+                        // return "rgba(75, 50, 47, 0.6)";
+                        return("rgba(235, 106, 49, 0.6)");
+                    case "Wheat Beer":
+                        // return "rgba(170, 89, 66, 0.6)";
+                        return("rgba(229, 89, 51, 0.6)");
+                }
+            });
+
+            // map border color to each style
+            var borders = labels.map(label => {
+                switch(label){
+                    case "Ale":
+                        // return "rgba(224, 162, 0, 0.6)";
+                        return("rgba(250, 250, 110, 1)");
+                    case "Hefeweizen":
+                        // return "rgba(252, 209, 95, 0.6)";
+                        return("rgba(251, 235, 95, 1)");
+                    case "IPA":
+                        // return "rgba(255, 174, 66, 0.6)";
+                        return("rgba(252, 219, 82, 1)");
+                    case "Kolsch":
+                        // return "rgba(138, 37, 40, 0.6)";
+                        return("rgba(252, 203, 71, 1)");
+                    case "Lager":
+                        // return "rgba(252, 225, 172, 0.6)";
+                        return("rgba(251, 188, 62, 1)");
+                    case "Other":
+                        // return "rgba(243, 229, 171, 0.6)";
+                        return("rgba(250, 172, 56, 1)");
+                    case "Pale Ale":
+                        // return "rgba(201, 160, 68, 0.6)";
+                        return("rgba(247, 156, 51, 1)");
+                    case "Porter":
+                        // return "rgba(91, 49, 48, 0.6)";
+                        return("rgba(244, 139, 49, 1)");
+                    case "Saison":
+                        // return "rgba(234, 86, 0, 0.6)";
+                        return("rgba(240, 123, 48, 1)");
+                    case "Stout":
+                        // return "rgba(75, 50, 47, 0.6)";
+                        return("rgba(235, 106, 49, 1)");
+                    case "Wheat Beer":
+                        // return "rgba(170, 89, 66, 0.6)";
+                        return("rgba(229, 89, 51, 1)");
+                }
+            });
+
+            var data = beersByType.map(beerType => beerType.value);
+
+            // define y max for chart
+            var maxValue = Math.max.apply(Math, data);
+            var roundedMax = Math.ceil(maxValue/5) * 5;
+            
+            myChart.data.labels = labels;
+            myChart.data.datasets[0].data = data;
+            myChart.data.datasets[0].backgroundColor = colors;
+            myChart.data.datasets[0].borderColor = borders;
+            myChart.options.scales.yAxes[0].ticks.max = roundedMax;
+            myChart.update();
+
+        // make bar chart interactive
+        document.getElementById("myChart").onclick = function (evt) {
+            var activePoints = myChart.getElementsAtEventForMode(evt, 'point', myChart.options);
+            var firstPoint = activePoints[0];
+            if (firstPoint == undefined) {
+                renderTable(filtered);
+                return;
+            }
+            var selectedBeer = myChart.data.labels[firstPoint._index];
+            updateTable(selectedBeer, filtered);
+            };      
         })
-
-        // filter data
-        var filtered = beer_list.filter(bl => bl.brewery_id === id);
-
-        // render beer list table
-        renderTable(filtered);
-
-        // get beer styles
-        var labels = beersByType.map(beerType => beerType.key);
-
-        // map fill color to each style
-        var colors = labels.map(label => {
-            switch(label){
-                case "Ale":
-                    // return "rgba(224, 162, 0, 0.6)";
-                    return("rgba(250, 250, 110, 0.6)");
-                case "Hefeweizen":
-                    // return "rgba(252, 209, 95, 0.6)";
-                    return("rgba(251, 235, 95, 0.6)");
-                case "IPA":
-                    // return "rgba(255, 174, 66, 0.6)";
-                    return("rgba(252, 219, 82, 0.6)");
-                case "Kolsch":
-                    // return "rgba(138, 37, 40, 0.6)";
-                    return("rgba(252, 203, 71, 0.6)");
-                case "Lager":
-                    // return "rgba(252, 225, 172, 0.6)";
-                    return("rgba(251, 188, 62, 0.6)");
-                case "Other":
-                    // return "rgba(243, 229, 171, 0.6)";
-                    return("rgba(250, 172, 56, 0.6)");
-                case "Pale Ale":
-                    // return "rgba(201, 160, 68, 0.6)";
-                    return("rgba(247, 156, 51, 0.6)");
-                case "Porter":
-                    // return "rgba(91, 49, 48, 0.6)";
-                    return("rgba(244, 139, 49, 0.6)");
-                case "Saison":
-                    // return "rgba(234, 86, 0, 0.6)";
-                    return("rgba(240, 123, 48, 0.6)");
-                case "Stout":
-                    // return "rgba(75, 50, 47, 0.6)";
-                    return("rgba(235, 106, 49, 0.6)");
-                case "Wheat Beer":
-                    // return "rgba(170, 89, 66, 0.6)";
-                    return("rgba(229, 89, 51, 0.6)");
-            }
-        });
-
-        // map border color to each style
-        var borders = labels.map(label => {
-            switch(label){
-                case "Ale":
-                    // return "rgba(224, 162, 0, 0.6)";
-                    return("rgba(250, 250, 110, 1)");
-                case "Hefeweizen":
-                    // return "rgba(252, 209, 95, 0.6)";
-                    return("rgba(251, 235, 95, 1)");
-                case "IPA":
-                    // return "rgba(255, 174, 66, 0.6)";
-                    return("rgba(252, 219, 82, 1)");
-                case "Kolsch":
-                    // return "rgba(138, 37, 40, 0.6)";
-                    return("rgba(252, 203, 71, 1)");
-                case "Lager":
-                    // return "rgba(252, 225, 172, 0.6)";
-                    return("rgba(251, 188, 62, 1)");
-                case "Other":
-                    // return "rgba(243, 229, 171, 0.6)";
-                    return("rgba(250, 172, 56, 1)");
-                case "Pale Ale":
-                    // return "rgba(201, 160, 68, 0.6)";
-                    return("rgba(247, 156, 51, 1)");
-                case "Porter":
-                    // return "rgba(91, 49, 48, 0.6)";
-                    return("rgba(244, 139, 49, 1)");
-                case "Saison":
-                    // return "rgba(234, 86, 0, 0.6)";
-                    return("rgba(240, 123, 48, 1)");
-                case "Stout":
-                    // return "rgba(75, 50, 47, 0.6)";
-                    return("rgba(235, 106, 49, 1)");
-                case "Wheat Beer":
-                    // return "rgba(170, 89, 66, 0.6)";
-                    return("rgba(229, 89, 51, 1)");
-            }
-        });
-
-        var data = beersByType.map(beerType => beerType.value);
-        console.log(id);
-    })
+    });
 };
 
 
 // initial data, plot load
-d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
+d3.csv("assets/data/brewery_df.csv").then(function(brew_df) {
     // sort breweries
     var breweries = brew_df.map(brewery => brewery.breweries);
     var breweries = breweries.sort();
@@ -166,11 +203,15 @@ d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
         option.attr("value", brewery).text(brewery)
     });
 
-    // retrieve first id to filter data on load
-    var selectedId = "OCiWW5"//breweries.slice(0,10);
+    // retrieve first brewery to filter data on load
+    selectedBrewery = breweries[0];
+
+    // retrieve brewery id using data
+    var breweryFilter = brew_df.filter(br => br.breweries === selectedBrewery);
+    var selectedId = breweryFilter[0].brewery_id;
 
     // load beer list
-    d3.csv("assets/data/nc_breweries_beer_list_v2.csv").then(function(beer_list) {
+    d3.csv("assets/data/beer_list_df.csv").then(function(beer_list) {
         // sort data by master beer style
         beer_list.sort((a, b) => {
             if(a.master_style < b.master_style) {return -1;}
@@ -180,6 +221,7 @@ d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
 
         // filter data
         var filtered = beer_list.filter(bl => bl.brewery_id === selectedId);
+        console.log(filtered);
 
         // render beer list table
         renderTable(filtered);
@@ -271,12 +313,13 @@ d3.csv("assets/data/nc_breweries_df.csv").then(function(brew_df) {
             }
         });
 
+        // define y max for chart
         var data = beersByType.map(beerType => beerType.value);
         var maxValue = Math.max.apply(Math, data);
         var roundedMax = Math.ceil(maxValue/5) * 5;
 
         var ctx = document.getElementById("myChart");
-        var myChart = new Chart(ctx, {
+        myChart = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: labels,
