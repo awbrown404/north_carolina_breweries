@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import csv
 import json
-import numpy as np
 import sqlite3
 from sqlalchemy import create_engine
 import pandas as pd 
