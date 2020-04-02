@@ -1,61 +1,12 @@
-  
 <!DOCTYPE html>
-<meta charset="utf-8">
-<script src="https://d3js.org/d3.v3.min.js"></script>
+<html lang="en">
 
 <head>
-   <h1 align="center"><u> Finding Information on NC Craft Breweris using an interactive dashboard</u></h1>
-   <p align="center"> This is an application with a backend written in python (Flask) and a front end developed using <a href="https://bl.ocks.org/mbostock/1283663"> Mike Bostock's </br>
-                      hierarchical chart example</a>.This application also makes use of <a href="https://github.com/andrewheekin/csv2flare.json/blob/master/csv2flare.json.py"> Andrew Heekins code</a> to convert a dataframe</br> 
-                      to a nested json.For the detailed code, please visit <a href="https://github.com/kanishkan91">my github</a>.Data for this visualization hasbeen extracted from <a href="http://www.fao.org/faostat/en/#data/FBS">FAOSTAT</a><br/> 
-                      Pick a year (between 2010 and 2013) and a country, to begin!</p>
-                        
-                                                
+    <meta charset="utf-8">
+    <title>NC Brew Finder</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<style>
-
-text {
-  font: 10px sans-serif;
-}
-
-button{
-  font: 10px sans-serif;
-    
-}
-
-rect.background {
-  fill: white;
-  stroke: #646464;
-  stroke-width: 1px;
-  stroke-dasharray: 2,2;
-  stroke-linejoin: round;
-}
-
-.axis {
-  shape-rendering: crispEdges;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-}
-
-.left-div {
-  float:left;
-  height: 520px;
-  width: 750px;
-  
-}
-.right-div {
-  float:right;
-  height: 520px;
-  width: 750px;
-  
-}
-
-</style>
 
 <form method="post" onSubmit="showCountry()">
     <input name="Country_field" id="CountrySel"  placeholder="Enter brewery name" >
@@ -66,6 +17,12 @@ rect.background {
 
 
 <body>
+    <!-- <h1 align="center"><u> Finding Information on NC Craft Breweris using an interactive dashboard</u></h1>
+    <p align="center"> This is an application with a backend written in python (Flask) and a front end developed using <a href="https://bl.ocks.org/mbostock/1283663"> Mike Bostock's </br>
+                      hierarchical chart example</a>.This application also makes use of <a href="https://github.com/andrewheekin/csv2flare.json/blob/master/csv2flare.json.py"> Andrew Heekins code</a> to convert a dataframe</br> 
+                      to a nested json.For the detailed code, please visit <a href="https://github.com/kanishkan91">my github</a>.Data for this visualization hasbeen extracted from <a href="http://www.fao.org/faostat/en/#data/FBS">FAOSTAT</a><br/> 
+                      Pick a year (between 2010 and 2013) and a country, to begin!</p>         -->
+
 <p> <b>Brewery selected : {{BreweryName}}</b> </p>
 <p><b> Style selected : {{Style}}</b> </p>
 
