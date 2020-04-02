@@ -4,7 +4,7 @@ from flask import Flask
 # create a Flask app
 app = Flask(__name__)
 
-# We're using the new route that allows us to read a date from the URL
+# We're using the new route that allows us to read a beer style from the URL
 @app.route('/beer_style')
 def beer(beer_style):
     # Additionally, we're now loading the JSON file's data into file_data 
