@@ -1,19 +1,31 @@
-# import Flask
-from flask import Flask
+from flask import Flask, render_template, request
+import csv
+import json
+import numpy as np
+import sqlite3
+from sqlalchemy import create_engine
+import pandas as pd 
 
-# create a Flask app
 app = Flask(__name__)
 
-# We're using the new route that allows us to read a beer style from the URL
-@app.route('/beer_style')
-def beer(beer_style):
-    # Additionally, we're now loading the JSON file's data into file_data 
-    # every time a request is made to this endpoint
-    with open('./breweries_json.json', 'r') as jsonfile:
-        file_data = json.loads(jsonfile.read())
-    # We can then find the data for the requested date and send it back as json
-    return json.dumps(file_data[beer_style])
+file = '..\north_carolina_brweries\assets\data\nc_breweries_df.csv'
 
+breweries_db = create_engine('sqlite:///breweries_db.db')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+for df in pd.read_csv(file)
+
+@app.route('/', methods=["GET", "POST "])
+def homepage():
+      data.brewery = request.form.get('breweries', '')
+      data.city = request.form.get('city', '')
+
+      df = pd.read_csv('..\north_carolina_brweries\assets\data\nc_breweries_df.csv')
+      brewery = data.brewery
+      city = data.city
+
+      df = df[df.brewery == brewery]
+      df = df[df.city == city]
+
+      df = df[["breweries", "city"]]
+
+if __name__ == "__main__":
