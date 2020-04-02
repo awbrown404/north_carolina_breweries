@@ -1,0 +1,260 @@
+index,brewery_id,breweries,in_business,city,state,latitude,longitude,brewery_type,phone,website
+0,QEB46N,7 Clans Brewing,Y,Canton,North Carolina,35.5328838,-82.8373558,Micro Brewery,828.246.2968,http://www.7clansbrewing.com/
+1,ichhfQ,Olde Hickory Brewery,Y,Hickory,North Carolina,35.72121,-81.38708299999999,Restaurant/Ale House,828.323.8753,
+2,SYkdNz,Andrews Brewing Company,Y,Andrews,North Carolina,35.199271,-83.812814,Nano Brewery,(828) 321-2006,http://www.andrewsbrewing.com/
+3,Cwhr9F,Archetype Brewing Company,Y,Asheville,North Carolina,35.6005152,-82.5549742,Micro Brewery,(828) 505-8305,https://www.archetypebrewing.com/
+4,nHLlnK,Sierra Nevada Brewing Co.,Y,Fletcher,North Carolina,35.4303824,-82.5489214,Micro Brewery,,
+5,Jt43j7,New Belgium Brewing,Y,Asheville,North Carolina,35.588358,-82.573548,Micro Brewery,,
+6,SWMzJ3,Ass Clown Brewing Company,Y,Cornelius,North Carolina,35.4577774,-80.8545343,Micro Brewery,704-995-7767,http://www.assclownbrewing.com/
+7,bv8S0U,Barrel Culture,Y,Durham,North Carolina,35.893296,-78.888539,Micro Brewery,(919) 908-9659,https://www.facebook.com/BarrelCulture/
+10,j8PiMZ,Billy Beer Inc,Y,Walstonburg,North Carolina,35.5945518,-77.699914,Production Facility,984-444-6826,www.billybeer.com
+11,OCiWW5,Catawba Brewing Co.,Y,Asheville,North Carolina,35.5659744,-82.5397969,Micro Brewery,,http://catawbabrewing.com/
+13,p2bHtA,Blowing Rock Brewing,Y,Blowing Rock,North Carolina,36.1326714,-81.677025,Micro Brewery,(828) 414-9600,http://www.blowingrockbrewing.com
+14,p2bHtA,Blowing Rock Brewing,Y,Hickory,North Carolina,35.7353882,-81.3258022,Micro Brewery,(828) 855-9999,https://blowingrockbrewing.com/
+15,q6vJUK,Oskar Blues Brewery,Y,Brevard,North Carolina,35.2534666,-82.706852,Micro Brewery,(828) 883-2337,http://www.oskarblues.com/
+16,EeNu7g,UpCountry Brewing Co.,Y,Brevard,North Carolina,35.238242,-82.735986,Micro Brewery,(828) 885-7538,https://www.upcountrybrewing.com/tap-rooms/brevard-taproom
+17,Pf7pos,Boondocks Brewing,Y,West Jefferson,North Carolina,36.399570000000004,-81.49158,Micro Brewery,3362465222,http://www.boondocksbrewhaus.com
+18,G21vGb,Dirtbag Ales,Y,Hope Mills,North Carolina,34.9399796,-78.9133094,Micro Brewery,(910) 426-2537,http://www.dirtbagales.com
+19,m1KTdv,Brewery Bhavana,Y,Raleigh,North Carolina,35.7774414,-78.6369037,Micro Brewery,(919) 829-9998,https://brewerybhavana.com
+20,87K5yW,Bright Penny Brewing Company,Y,Mebane,North Carolina,36.095674,-79.26365899999999,Micro Brewery,(919) 568-9415,https://www.facebook.com/brightpennybrewing/
+22,h1SYe2,Bull Durham Beer Company,Y,Durham,North Carolina,35.991585,-78.904016,Micro Brewery,,http://www.bulldurhambeer.com/
+23,JKx7GQ,Carolina Brewery,Y,Chapel Hill,North Carolina,35.910749700000004,-79.0628267,Brewpub,919-942-1800,http://www.carolinabrewery.com/
+24,D1UQzj,Rock Bottom Restaurant & Brewery,Y,Charlotte,North Carolina,35.230194,-80.839336,Brewpub,704-334-2739,http://www.rockbottomsouth.com/
+25,OCiWW5,Catawba Brewing Co.,Y,Charlotte,North Carolina,35.2245307,-80.82033390000001,Micro Brewery,(980) 498-6145,http://catawbabrewing.com/
+26,Lli3HQ,Check Six Brewing Company,Y,Southport,North Carolina,33.952270500000004,-78.0444171,Micro Brewery,910-477-9280,http://www.checksixbeer.com
+27,B5jTO7,Clouds Brewing,Y,Durham,North Carolina,35.999964399999996,-78.9101083,Brewpub,(919) 251-8096,http://www.cloudsbrewing.com/durham/
+29,5zPMkZ,Crystal Coast Brewing Company,Y,Atlantic Beach,North Carolina,34.700875599999996,-76.7413625,Micro Brewery,2522962841,
+30,Dr0DzL,Divine Barrel Brewing,Y,Charlotte,North Carolina,35.2502061,-80.79629240000001,Micro Brewery,(980) 237-1803,divinebarrel.com/
+31,WDrFlD,Asheville Brewing Company,Y,Asheville,North Carolina,35.5917433,-82.5553572,Brewpub,828-255-4077,http://ashevillebrewing.com/
+32,OCiWW5,Catawba Brewing Co.,Y,Morganton,North Carolina,35.744683,-81.685705,Micro Brewery,(828) 430-6883,http://catawbabrewingco.com
+34,IJEzHF,DSSOLVR,Y,Asheville,North Carolina,35.5969081,-82.5534597,Micro Brewery,,https://dssolvr.com/
+35,46zcjJ,Eurisko Beer Company,Y,Asheville,North Carolina,35.586245500000004,-82.5523569,Micro Brewery,828-774-5055,www.euriskobeer.com
+36,fQhCNM,Fitzgerald's Irish Pub,Y,Charlotte,North Carolina,35.2269273,-80.84038079999999,Restaurant/Ale House,704-900-8088,
+37,k8ujcf,Flying Machine Brewing Company,Y,Wilmington,North Carolina,34.229589000000004,-77.901324,Tasting Room,910-769-8173,www.flyingmachine.beer
+38,ajREdT,Foothills Brewing Company,Y,Winston-Salem,North Carolina,36.045353000000006,-80.32315899999999,Tasting Room,336-997-9484,http://foothillsbrewing.com
+39,ajREdT,Foothills Brewing Company,Y,Winston-Salem,North Carolina,36.0975305,-80.250915,Brewpub,336-777-3348,http://www.foothillsbrewing.com/
+40,nLP1fR,Fortnight Brewing Company,Y,Cary,North Carolina,35.777278,-78.801539,Micro Brewery,,http://fortnightbrewing.com/
+41,apcbMr,Fourth Creek Brewing Co.,Y,Statesville,North Carolina,35.7841271,-80.89102220000001,Micro Brewery,980-223-2294,https://www.fourthcreekbrewco.com/
+42,cESRYF,Fox Hill Meadery,Y,Marshall,North Carolina,35.701399,-82.72549599999999,Meadery,(828) 683-3387,https://www.foxhillmead.com/
+43,zeWbuM,Wicked Weed Brewing Company,Y,Asheville,North Carolina,35.589172,-82.55522629999999,Micro Brewery,,
+47,rfXHD7,Natty Greene's Brewing Co.,Y,Greensboro,North Carolina,36.069368,-79.79043100000001,Brewpub,336-274-1373,http://nattygreenes.com
+49,ueswRW,Hi-Wire Brewing,Y,Asheville,North Carolina,35.571081299999996,-82.5459467,Micro Brewery,(828) 738-2448,https://hiwirebrewing.com/big-top/
+50,HX4Prz,Skull Coast Ales,Y,Hickory,North Carolina,35.735155999999996,-81.325672,Micro Brewery,,
+51,XOcBJQ,Liberty Steakhouse and Brewery,Y,High Point,North Carolina,35.988478,-80.00451,Brewpub,(336) 882-4677,
+54,beC6Xf,Keeper's Cut Meadery,Y,Marion,North Carolina,35.681552,-82.0112971,Meadery,828-527-6326,http://www.facebook.com/keeperscut
+55,0tKnKg,Koi Pond Brewing Company,Y,Rocky Mount,North Carolina,35.938012,-77.804379,Micro Brewery,,http://koipondbrewingcompany.com/
+56,7JiAJ8,Coffee Brewery,Y,Raleigh,North Carolina,35.8034825,-78.63404969999999,Production Facility,,
+57,hd8yE8,Lost Colony Brewery,Y,Manteo,North Carolina,35.909509,-75.6695212,Micro Brewery,(252) 473-6666,lostcolonybrewery.com/brewery
+58,8NIrvv,Mad Co. Brew House,Y,Marshall,North Carolina,35.7974112,-82.68486290000001,Micro Brewery,(828) 649-8600,http://www.madisoncountybrewing.com/
+59,DuLRZh,Lynwood Brewing Concern,Y,Raleigh,North Carolina,35.870447399999996,-78.7173494,Micro Brewery,9197850043,
+60,kZAhYn,Green Man Brewery,Y,Asheville,North Carolina,35.5886188,-82.55318359999998,Brewpub,828-252-5502,http://www.greenmanbrewery.com/
+61,mEDZEd,Bond Brothers Beer Company,Y,Cary,North Carolina,35.7883075,-78.77777320000001,Micro Brewery,,
+62,GH37ia,Hayesville Brewing Co,Y,Hayesville,North Carolina,35.039894,-83.7957094,Micro Brewery,(828) 835-6010,https://www.facebook.com/leisa5678/
+63,SZSffk,The Dreamchaser's Brewery,Y,Waxhaw,North Carolina,34.9252494,-80.7430102,Nano Brewery,(704) 843-7326,http://dreamchasersbrewery.com
+68,GUASqL,Lower Left Brewing Co,Y,Charlotte,North Carolina,35.182762,-80.8801084,Micro Brewery,704-469-9861,www.llbrewco.com
+69,hNPjUO,Red Oak Brewery,Y,Whitsett,North Carolina,36.061258,-79.56952,Micro Brewery,888-Red-Oaks,http://www.redoakbrewery.com/
+70,buCABg,Top of the Hill Restaurant and Brewery,Y,Chapel Hill,North Carolina,35.9131641,-79.0557507,Brewpub,1-919-929-8676,
+73,vEBhwg,Blue Blaze Brewing,Y,Charlotte,North Carolina,35.241765,-80.8672069,Micro Brewery,(704) 717-8527,http://www.blueblazebrewing.com/
+74,R5c06p,Southern Strain Beer Company LLC,Y,Concord,North Carolina,35.4150768,-80.57717290000001,Nano Brewery,7042189106,www.southernstrainbrewing.com
+75,3PKoGG,Percent Tap House,Y,Harrisburg,North Carolina,35.3264399,-80.6466085,Nano Brewery,9802588651,www.percenttaphouse.com
+79,pp1OW5,Zebulon Artisan Ales,Y,Weaverville,North Carolina,35.696662599999996,-82.5608605,Micro Brewery,,
+80,WSOfSU,Hickory Nut Gorge Brewery,Y,Chimney Rock,North Carolina,35.4402773,-82.25002099999999,Micro Brewery,(828) 436-7047,http://Hickorynutgorgebrewery.com
+81,OV4wYQ,Brown Truck Brewery,Y,High Point,North Carolina,35.97147879999999,-80.016063,Micro Brewery,(336) 442-7519,https://www.browntruckbrewery.com/
+82,8m7Tbv,Cavendish Brewing Company,Y,Gastonia,North Carolina,35.2657001,-81.1877502,Micro Brewery,,
+83,0onkhr,Durty Bull Brewing Company,Y,Durham,North Carolina,36.0011871,-78.89829940000001,Micro Brewery,(919) 688-2337,http://www.durtybull.com/
+86,6wKutG,Three Spirits Brewery,Y,Charlotte,North Carolina,35.1716557,-80.8791142,Micro Brewery,,http://threespiritsbrewery.com
+87,d8WYrI,Bhramari Brewhouse,Y,Asheville,North Carolina,35.591426399999996,-82.55201269999999,Micro Brewery,828.214.7981,
+88,c30iDf,Sweeten Creek Brewing,Y,Asheville,North Carolina,35.542546200000004,-82.5221774,Micro Brewery,(828) 575-2785,http://sweetencreekbrewing.com/
+89,EMjWN6,Joymongers Brewing Co.,Y,Greensboro,North Carolina,36.078767,-79.79369270000001,Micro Brewery,,https://www.facebook.com/Joymongers/timeline
+91,qgSKWX,Groundlion Brewing Co.,Y,Seagrove,North Carolina,35.54041470000001,-79.77309009999999,Micro Brewery,,
+92,hdOVRn,Southern Appalachian Brewery,Y,Hendersonville,North Carolina,35.322373999999996,-82.459547,Micro Brewery,828-684-1235,http://www.sabrewery.com/
+93,T0B8fy,Ecusta Brewery and Taproom,Y,Pisgah Forest,North Carolina,35.273726200000006,-82.7051634,Micro Brewery,(828) 966-2337,
+94,5JtwpP,Camelback Brewing Company,Y,Sanford,North Carolina,35.4872513,-79.19353690000001,Micro Brewery,(919) 478-1614,https://camelbackbrewingco.com/
+95,hdckyq,Mountain Layers Brewing Company,Y,Bryson City,North Carolina,35.428787899999996,-83.4460677,Micro Brewery,,http://www.mountainlayersbrewingcompany.com/
+96,1yqdyJ,Howard Brewing Company,Y,Lenoir,North Carolina,35.91498,-81.539464,Brewpub,,
+97,JxLZ8H,Little City Brewing And Provisions Co.,Y,Raleigh,North Carolina,35.7851987,-78.6452222,Micro Brewery,(919) 502-7155,http://thelocalicon.com/little-city/
+98,8Qe5WH,Commoners Brewing Company,Y,Concord,North Carolina,35.4597838,-80.58485309999999,Micro Brewery,(704) 886-6002,https://commonersbrewingcompany.com/
+100,PXxbtS,4Chambers Brewing,Y,Stallings,North Carolina,35.0907026,-80.68617990000001,Micro Brewery,,
+102,cqA8ox,Biltmore Brewing Company,Y,Asheville,North Carolina,35.557734,-82.58067199999999,Office,828-225-1333,http://www.biltmore.com/our_wine/Biltmore_Brewing/Cedrics_Beer/
+103,GV82Ll,Bold Missy Brewery,Y,Charlotte,North Carolina,35.2492964,-80.7966386,Micro Brewery,,http://www.boldmissybrewery.com/
+105,V8Zeed,Quick Trigger Brewing Company,Y,Ahoskie,North Carolina,36.286113,-76.986475,Micro Brewery,,
+108,2Qkw10,Sycamore Brewing,Y,Charlotte,North Carolina,35.208721000000004,-80.862753,Micro Brewery,,http://www.sycamorebrew.com/
+111,ajBhPo,217 Brew Works,Y,Wilson,North Carolina,35.7229467,-77.9121525,Micro Brewery,,http://217brewworks.com/
+112,D2uVZF,Seaboard Taproom & Wine Bar,Y,Matthews,North Carolina,35.1175931,-80.7213451,Micro Brewery,(704) 555-1212,
+113,RbLIUa,Salty Turtle Beer Co.,Y,Surf City,North Carolina,34.443383399999995,-77.56088009999999,Micro Brewery,,http://saltyturtlebeer.com
+114,j3eQCh,Newgrass Brewing Co.,Y,Shelby,North Carolina,35.290221,-81.539978,Micro Brewery,(704) 937-1280,
+115,MOM2Mw,Lenny Boy Brewing Co.,Y,Charlotte,North Carolina,35.201444,-80.873595,Micro Brewery,(980) 585-1728,http://www.discoverlennyboy.com
+116,UOIwZb,Kind Beer Distributing,Y,Charlotte,North Carolina,35.265226,-80.759962,Office,704-819-4913,http://www.kindbeers.com/
+117,gv1egz,Old North State Winery & Brewery,Y,Mount Airy,North Carolina,36.501921,-80.60828199999999,Micro Brewery,336-789-9463,http://www.oldnorthstatewinery.com/
+118,Ym0fEg,Neuse River Brewing Company,Y,Raleigh,North Carolina,35.8041774,-78.63283320000001,Micro Brewery,(404) 386-752,http://neuseriverbrewing.com/
+121,5V7Qcw,GBrewhouse,Y,Peletier,North Carolina,34.7293,-77.07500300000001,Micro Brewery,,
+122,ZRW59q,Preyer Brewing Company,Y,Greensboro,North Carolina,36.079488,-79.793932,Micro Brewery,(336) 256-9450,http://www.preyerbrewing.com
+124,2nQ997,Starpoint Brewing,Y,Carrboro,North Carolina,35.873853999999994,-79.08368,Nano Brewery,,
+125,IjjCkQ,Bull City Ciderworks,Y,Durham,North Carolina,35.9909566,-78.89930129999999,Cidery,(919) 701-8467,www.bullcityciderworks.com/
+127,RzRrsp,Haw River Farmhouse Ales,Y,Saxapahaw,North Carolina,35.946721999999994,-79.319075,Micro Brewery,919-741-9039,http://hawriverales.com/
+129,HM5BbV,Bark Brewing Company,Y,Greensboro,North Carolina,36.0617081,-79.8438328,Micro Brewery,(336) 856-1406,http://barkbrewingcompany.com/
+130,JLf9YB,Bombshell Beer Company,Y,Holly Springs,North Carolina,35.658288899999995,-78.8367829,Micro Brewery,(919) 823-1933,http://www.bombshellbeer.com/
+133,PoQAbZ,Yellow Sun Brewing Co,Y,Rutherfordton,North Carolina,35.366620000000005,-81.958449,Micro Brewery,(828) 429-3840,
+134,8nYps3,American Honor Beer Company,Y,SE Hickory,North Carolina,35.735392,-81.3258422,Micro Brewery,800-961-8176,http://www.americanhonorbeer.com/
+135,288yl0,Twenty-Six Acres Brewing Company,Y,Concord,North Carolina,35.388337,-80.723158,Micro Brewery,980-277-2337,http://www.26acres.com
+137,mcYO9v,Appalachian Mountain Brewery,Y,Boone,North Carolina,36.2033443,-81.6685954,Micro Brewery,(828) 263-1111,http://www.appalachianmountainbrewery.com/
+139,NTO6Fr,Nickelpoint Brewing Co.,Y,Raleigh,North Carolina,35.804402,-78.633663,Micro Brewery,,http://www.unionsquarebrewery.com
+141,jDg4xl,BearWaters Brewing Company,Y,Canton,North Carolina,35.531301899999995,-82.8426478,Micro Brewery,(828) 237-4200,http://www.bwbrewing.com/
+143,kVLhDj,New Sarum Brewing,Y,Salisbury,North Carolina,35.666689,-80.46810500000001,Micro Brewery,(704) 830-6577,http://www.newsarumbrewing.com
+146,knEKVM,Pitt Street Brewing Company,Y,Greenville,North Carolina,35.609413700000005,-77.3771667,Micro Brewery,(252) 227-4151,https://www.pittstreetbrewing.com/
+147,zxMohP,Wooden Robot Brewery,Y,Charlotte,North Carolina,35.21667670000001,-80.85664399999999,Micro Brewery,,
+149,ThMAOJ,Naked Apple Hard Cider,Y,Flat Rock,North Carolina,35.271228,-82.441508,Cidery,,
+150,3Rjk1o,Heist Brewery,Y,Charlotte,North Carolina,35.245827,-80.80896700000001,Brewpub,(704) 375-8260,http://www.heistbrewery.com
+151,Rew3Ib,Outer Banks Brewing Station,Y,Kill Devil Hills,North Carolina,36.009996,-75.658754,Brewpub,252-449-2739,http://obbrewing.com/
+152,zjHu4E,New Anthem Beer Project,Y,Wilmington,North Carolina,34.234016499999996,-77.94776329999999,Micro Brewery,,
+153,zwAzew,Double Barley Brewing,Y,Smithfield,North Carolina,35.566749200000004,-78.3380203,Micro Brewery,(919) 934-3433,http://doublebarleybrewing.com/
+154,Hdz6Zk,Starrlight Mead,Y,Pittsboro,North Carolina,35.72694179999999,-79.17520209999999,Meadery,919-533-6314,http://starrlightmead.com
+155,404w1Y,Hoppy Trout Brewing Company,Y,Andrews,North Carolina,35.200614,-83.826531,Micro Brewery,(828) 835-2111,http://www.hoppytroutbrewing.com
+157,zCcJrf,OysterHouse Brewing Company,Y,Asheville,North Carolina,35.5789513,-82.58885790000001,Brewpub,828-350-0505,http://www.oysterhousebeers.com/
+158,soqqVC,Eleven Lakes Brewing,Y,Cornelius,North Carolina,35.454713299999995,-80.859866,Micro Brewery,,
+160,zuFqe6,Suffolk Punch,Y,Charlotte,North Carolina,35.2004683,-80.869111,Restaurant/Ale House,704-319-8650,https://thesuffolkpunch.com
+161,wH4NHi,Resident Culture,Y,Charlotte,North Carolina,35.2201419,-80.8055087,Micro Brewery,(704) 333-1862,https://residentculturebrewing.com/
+163,VMeZHo,Lazy Hiker Brewing Co.,Y,Franklin,North Carolina,35.180679,-83.38424499999999,Micro Brewery,(828) 369-5299,http://www.lazyhikerbrewing.com/
+164,fJYG8Y,Highland Brewing Company,Y,Asheville,North Carolina,35.571062,-82.49818990000001,Micro Brewery,828-299-3370,http://www.highlandbrewing.com/
+166,WDbiXY,Wise Man Brewing,Y,Winston-Salem,North Carolina,36.104876000000004,-80.245385,Micro Brewery,(336) 725-0008,http://www.wisemanbrewing.com/
+167,RkB8DB,One World Brewing,Y,Asheville,North Carolina,35.594796,-82.552285,Micro Brewery,(508) 982-3757,http://www.oneworldbrewing.com/
+168,A4kfNJ,Legion Brewing,Y,Charlotte,North Carolina,35.218387,-80.812963,Nano Brewery,,http://Www.legionbrewing.com
+173,eu1cAn,Bull City Burger and Brewery,Y,Durham,North Carolina,35.995445000000004,-78.899939,Brewpub,919-680-2333,http://www.bullcityburgerandbrewery.com/
+175,YGl9bd,Lost Province Brewing Co,Y,Boone,North Carolina,36.219076,-81.6835445,Micro Brewery,(828) 263-7429,http://lostprovince.com
+177,PDva3w,Good Hops Brewing LLC,Y,Carolina Beach,North Carolina,34.041266,-77.904635,Micro Brewery,(706) 713-1594,https://www.goodhopsbrewing.com
+180,QR49h5,Oak & Dagger Public House,Y,Raleigh,North Carolina,35.7892684,-78.63940649999999,Micro Brewery,,
+181,drNCMo,Flat Top Brewing Company,Y,Elk,North Carolina,36.165884999999996,-81.863956,Micro Brewery,(423) 342-7030,http://www.flattopbrewing.com
+183,18bX0K,Ole Shed Brewing Company,Y,Dallas,North Carolina,35.316155,-81.219127,Micro Brewery,(704) 266-1472,http://www.oledallasbrewery.com
+184,sUoofg,Brüeprint Brewing Company,Y,Apex,North Carolina,35.712194399999994,-78.851764,Micro Brewery,,http://brueprint.com/
+185,XRTc94,Aviator Brewing Company,Y,Fuquay-Varina,North Carolina,35.619701,-78.808539,Micro Brewery,919-567-2337,http://www.aviatorbrew.com/
+186,UoXcp7,Broomtail Craft Brewery,Y,Wilmington,North Carolina,34.2598405,-77.8468914,Micro Brewery,(910) 264-1369,http://www.broomtailcraftbrewery.com
+187,pKTvAn,Triskelion Brewing Company,Y,Hendersonville,North Carolina,35.3204813,-82.457796,Micro Brewery,(828) 388-7051,http://triskelionbrewing.com/
+188,LZ4UuN,Mother Earth Brewing (North Carolina),Y,Kinston,North Carolina,35.262656,-77.5825349,Micro Brewery,252-208-2437,http://www.motherearthbrewing.com/
+189,78GQyY,The Barking Duck Brewing Co.,Y,Mint Hill,North Carolina,35.1524824,-80.6800688,Micro Brewery,(980) 938-6300,http://www.barkingduckbrew.com/
+190,UPUlc4,Crank Arm Brewing Company,Y,Raleigh,North Carolina,35.775526899999996,-78.6440439,Micro Brewery,(919) 291-0643,http://crankarmbrewing.com/
+191,hCCFgr,Beech Mountain Brewing Co.,Y,Beech Mountain,North Carolina,36.1946784,-81.87799509999999,Micro Brewery,(800) 438-2093,http://www.beechmountainresort.com/mountain/brewery.html
+192,y5QrQr,Thirsty Nomad Brewing Co.,Y,Charlotte,North Carolina,35.188365000000005,-80.891133,Nano Brewery,704-940-0947,http://thirstynomadbrewing.com
+193,06f9U6,Balsam Falls Brewing Company,Y,Sylva,North Carolina,35.3737395,-83.2220743,Nano Brewery,(828)631-1987,
+194,CisTjj,Sugar Creek Brewing Company,Y,Charlotte,North Carolina,35.18542120000001,-80.8809845,Micro Brewery,,http://sugarcreekbrewing.com/
+197,DYs3U3,Red Hill Brewing Co,Y,Concord,North Carolina,35.410395799999996,-80.5806013,Micro Brewery,(704) 784-2337,http://redhillbrewing.com/
+198,AT5UIb,D9 Brewing Company,Y,Cornelius,North Carolina,35.461202,-80.847373,Micro Brewery,,http://www.d9brewing.com
+199,mmoIS2,Fonta Flora Brewery,Y,Morganton,North Carolina,35.7478209,-81.6914461,Micro Brewery,(828) 475-0153,http://www.fontaflora.com/
+201,sxggDn,BottleTree Beer Co,Y,Tryon,North Carolina,35.2089443,-82.23814759999999,Office,864-266-0133,http://www.bottletree.net/
+202,F99d01,Tobacco Road Brewery,Y,Raleigh,North Carolina,35.7825535,-78.6463897,Micro Brewery,(919) 301-8793,http://www.tobaccoroadsportscafe.com/
+203,MstViE,French Broad River Brewing Company,Y,Asheville,North Carolina,35.56648320000001,-82.5374074,Micro Brewery,828-277-0222,http://frenchbroadbrewery.com/
+204,9GewxD,Bear Creek Brews,Y,Bear Creek,North Carolina,35.6518126,-79.3329623,Nano Brewery,(919) 200-3930,http://www.bearcreekbrews.com/
+205,Xgj486,Burning Blush Brewery,Y,Mills River,North Carolina,35.383723100000005,-82.5689964,Micro Brewery,828-595-9859,http://burningblush.com/
+208,2g1fge,Frog Level Brewing Company,Y,Waynesville,North Carolina,35.4934583,-82.9910063,Micro Brewery,,http://www.froglevelbrewing.com
+209,77YOgn,Front Street Brewery,Y,Wilmington,North Carolina,34.235752000000005,-77.949088,Micro Brewery,910-251-1935,http://www.frontstreetbrewery.com/
+212,8jjpWz,The Dreamweaver's Brewery,Y,Waxhaw,North Carolina,34.9245935,-80.74340190000001,Micro Brewery,,
+213,0WRKfW,Boylan Bridge Brewpub,Y,Raleigh,North Carolina,35.7784641,-78.6490665,Brewpub,919-803-8927,http://www.boylanbridge.com/
+214,NNBRpr,Southern Peak Brewery,Y,Apex,North Carolina,35.7474177,-78.84380490000001,Micro Brewery,,
+215,fsNEt0,Gibb's Hundred Brewing Company,Y,Greensboro,North Carolina,36.065851,-79.791772,Micro Brewery,336-763-7087,http://www.gibbshundred.com/
+216,HUCz2L,Fullsteam Brewery,Y,Durham,North Carolina,36.0031092,-78.8995998,Micro Brewery,919-682-2337,http://www.fullsteam.ag/
+219,KZlIgk,Four Saints Brewing Company,Y,Asheboro,North Carolina,35.7040289,-79.8145682,Micro Brewery,336-610-3722,http://www.foursaintsbrewing.com
+220,wtU6qB,Triple C Brewing Company,Y,Charlotte,North Carolina,35.200972,-80.869119,Micro Brewery,704-372-3212,http://www.triplecbrewing.com/
+221,2qlMjT,Pisgah Brewing Company,Y,Black Mountain,North Carolina,35.608487,-82.36105500000001,Micro Brewery,828-669-0190,http://pisgahbrewing.com/
+222,yO2ogr,Wedge Brewing Company,Y,Asheville,North Carolina,35.5861437,-82.5663199,Micro Brewery,,http://wedgebrewing.com/
+223,Fr3ygj,Weeping Radish Farm Brewery,Y,Grandy,North Carolina,36.219704899999996,-75.869811,Micro Brewery,252-491-5205,http://www.weepingradish.com/
+224,BWvj93,Steel String Brewery,Y,Carrboro,North Carolina,35.910205,-79.07227900000001,Micro Brewery,(828) 381.7557,http://www.steelstringbrewery.com/
+225,ZXEwp8,Boojum Brewing Company,Y,Waynesville,North Carolina,35.490445799999996,-82.98757619999999,Tasting Room,828-246-0350,
+226,1i8Y2X,Waterman's Brewing Co,Y,Wilmington,North Carolina,34.2210956,-77.8205824,Micro Brewery,(910) 839-3103,http://www.watermansbrewing.com/
+227,gfH8Gd,Primal Brewery,Y,Huntersville,North Carolina,35.4370891,-80.8436834,Micro Brewery,(704)947-2920,http://www.primalbrewery.com
+229,IyzwQ4,Waterline Brewing Company,Y,Wilmington,North Carolina,34.225565,-77.948452,Micro Brewery,,http://www.waterlinebrewing.com/
+231,QANLRv,White Street Brewing Company,Y,Wake Forest,North Carolina,35.977703999999996,-78.509865,Micro Brewery,919-647-9439,
+232,f6tQ4t,3rd Degree Brewhouse,Y,Fuquay-Varina,North Carolina,35.5968154,-78.7612138,Micro Brewery,(919) 201-5457,
+233,enoxkn,Brevard Brewing Co.,Y,Brevard,North Carolina,35.23332429999999,-82.7333116,Micro Brewery,,
+234,2nAbvS,Little Brother Brewing,Y,Greensboro,North Carolina,36.0686325,-79.7908848,Micro Brewery,,https://www.littlebrotherbrew.com/
+237,gINfbT,Nantahala Brewing Company,Y,Bryson City,North Carolina,35.431176,-83.446072,Micro Brewery,828-488-2337,http://www.nantahalabrewingcompany.com/
+238,tRGa3f,Ivory Tower Brewery,Y,Boone,North Carolina,36.212317999999996,-81.680083,Micro Brewery,,http://ivorytower.appstate.edu/
+242,qaxiOI,Nocturnal Brewing,Y,Hayesville,North Carolina,35.045415999999996,-83.81893149999999,Micro Brewery,(828) 305-7337,nocturnalbrewing.com
+243,5ITsFt,Carolina Brewing Company,Y,Holly Springs,North Carolina,35.6557346,-78.8543188,Micro Brewery,919-557-2337,http://www.carolinabrew.com/
+244,FOC78c,The Unknown Brewing,Y,Charlotte,North Carolina,35.220548799999996,-80.85835859999999,Micro Brewery,,http://unknownbrewing.com
+246,DyOhRo,Turgua Brewing Co.,Y,Fairview,North Carolina,35.5269891,-82.364124,Micro Brewery,828-222-0984,http://www.turguabrewing.com/
+247,6Twq5r,"Bayne Brewing Company, LLC",Y,Cornelius,North Carolina,35.480052799999996,-80.8911468,Micro Brewery,(704) 277-7661,http://www.baynebrewingcompany.com/
+250,ST1lih,Raleigh Brewing Company,Y,Raleigh,North Carolina,35.792858200000005,-78.68697879999999,Micro Brewery,919-696-4901,http://www.raleighbrewingcompany.com/
+251,L7OSOj,Tarboro Brewing Company,Y,Tarboro,North Carolina,35.896823600000005,-77.53580490000002,Micro Brewery,,http://tarborobrewingcompany.com/
+252,xR7GYA,Brice's Brewing Company,Y,Raleigh,North Carolina,35.724886600000005,-78.6597022,Micro Brewery,,http://bricesbrewing.com
+253,ueswRW,Hi-Wire Brewing,Y,Asheville,North Carolina,35.5914,-82.5559911,Micro Brewery,(828) 575-9675,http://www.hiwirebrewing.com/
+255,uvpHuL,Huske Hardware House Restaurant and Brewery,Y,Fayetteville,North Carolina,35.053389,-78.882968,Brewpub,910-437-9905,http://www.huskehardware.com/
+256,C4Ysr2,Vecino Brewing Co.,Y,Carrboro,North Carolina,35.9102223,-79.06837990000001,Micro Brewery,919-904-7273,https://vecinobrewing.com/
+259,4G3hyx,White Labs Kitchen and Taps,Y,Asheville,North Carolina,35.591175899999996,-82.54893390000001,Micro Brewery,828-974-3880,https://whitelabs.com
+262,0OJXEg,Valley River Brewery & Eatery,Y,Murphy,North Carolina,35.08874,-84.0352909,Micro Brewery,(828) 837-2337,http://valleyriverbreweries.com/
+263,PSSzlD,Old Armor Beer Company,Y,Kannapolis,North Carolina,35.4963174,-80.6259926,Nano Brewery,(704) 933 9203,www.oldarmor.com
+264,rBxNNF,The Duck-Rabbit Craft Brewery,Y,Farmville,North Carolina,35.6004215,-77.5962854,Micro Brewery,252-753-7745,http://www.duckrabbitbrewery.com/
+265,d25euF,Lonerider Brewing Company,Y,Raleigh,North Carolina,35.9036809,-78.7625869,Micro Brewery,919-442-8004,http://www.loneriderbeer.com/
+266,bLbQyH,Deep River Brewing Company,Y,Clayton,North Carolina,35.659335,-78.46686,Micro Brewery,919-368-3424,http://deepriverbrewing.com
+267,DfKF7i,Sub Noir Brewing,Y,Raleigh,North Carolina,35.8087147,-78.6234312,Nano Brewery,919-480-2337,http://subnoir.net/
+268,1BSxpy,Lynnwood Brewing Concern,Y,Raleigh,North Carolina,35.8706178,-78.7174046,Brewpub,919-785-0043,http://www.lynnwoodgrill.com/
+269,7Mnqfp,Armored Cow Brewing Co,Y,Charlotte,North Carolina,35.3091515,-80.7542694,Micro Brewery,(704)-227-6741,www.armoredcowbrewing.com
+270,xc5D82,Mason Jar Lager Company,Y,Fuquay Varina,North Carolina,35.595338,-78.79544709999999,Micro Brewery,(919) 557-5303,
+271,ehcJKn,Gizmo Brew Works,Y,Raleigh,North Carolina,35.896538299999996,-78.7441045,Micro Brewery,(919) 782-2099,http://gizmobrewworks.com/
+272,KEWA89,Thirsty Souls Community Brewing,Y,Mount Airy,North Carolina,36.5008642,-80.6088192,Micro Brewery,,http://www.facebook.com/thirstysoulsbrewing
+273,RIkcvC,The Mash House Brewery & Chophouse,Y,Fayetteville,North Carolina,35.0706848,-78.954515,Brewpub,910-867-9223,http://www.themashhouse.com/
+274,VnbHp5,Bright Light Brewing Company,Y,Fayetteville,North Carolina,35.0519838,-78.88330520000001,Micro Brewery,(910) 339-0464,http://facebook.com/brightlightbrewing
+275,fSMoAX,Urban Orchard Cider Company,Y,Asheville,North Carolina,35.579476899999996,-82.574306,Cidery,828-774-5251,http://www.urbanorchardcider.com
+277,avMkil,Coors Brewing Company,Y,Charlotte,North Carolina,35.184714899999996,-80.8125,Micro Brewery,,http://www.millercoors.com/
+282,6wZAQJ,Homeplace Beer Company,Y,Burnsville,North Carolina,35.9161561,-82.29984870000001,Micro Brewery,(828) 536-5147,https://homeplacebeer.com/
+284,pcrctk,NoDa Brewing Company,Y,Charlotte,North Carolina,35.25157,-80.812472,Micro Brewery,(704) 900-6851,http://www.nodabrewing.com/
+286,kHGmaY,Blue Ghost Brewing Company,Y,Flecher,North Carolina,35.4373578,-82.5308257,Production Facility,(828) 376-0159,http://www.blueghostbrewing.com
+288,NKnnkv,Pig Pounder Brewery,Y,Greensboro,North Carolina,36.084245,-79.80438199999999,Micro Brewery,336-574-2000,http://www.pigpounder.com/
+289,zeWbuM,Wicked Weed Brewing Company,Y,Asheville,North Carolina,35.591695,-82.551084,Micro Brewery,828-575-9599,http://wickedweedbrewing.com/
+291,5rX6XO,R & D Brewing,Y,Raleigh,North Carolina,35.800234700000004,-78.6358293,Micro Brewery,(919) 977-5654,https://www.1323rnd.com/
+292,rOLOWd,New Village Brewery and Taproom,Y,Oriental,North Carolina,35.029295,-76.694438,Micro Brewery,(252) 249-6132,http://www.newvillagebrewery.com/
+295,yWrMiq,Whistle Hop Brewing Company,Y,Fairview,North Carolina,35.523292,-82.41754499999999,Micro Brewery,(828) 338-9447,http://whistlehop.com/
+296,pLDF9A,Railhouse Brewery,Y,Aberdeen,North Carolina,35.130497999999996,-79.42713,Micro Brewery,910-783-5280,http://railhousebrewery.com/
+298,k5p3Fy,Wilmington Brewing Company,Y,Wilmington,North Carolina,34.221332700000005,-77.88674830000001,Micro Brewery,(910) 392-3315,
+299,bKdrSr,High Branch Brewing,Y,Concord,North Carolina,35.4150032,-80.6027893,Micro Brewery,(704) 706-3807,
+300,YW1tHH,Burial Beer Co.,Y,Asheville,North Carolina,35.588049,-82.55379599999999,Brewpub,828-475-2739,http://burialbeer.com/
+301,jcF9Q6,Lincoln Brewing Co.,Y,Raleigh,North Carolina,35.87339620000001,-78.579782,Micro Brewery,,http://www.lincolnbrewery.com/brewery/
+303,B5jTO7,Clouds Brewing,Y,Raleigh,North Carolina,35.7825984,-78.64537490000001,Restaurant/Ale House,(919) 235-7949,http://www.cloudsbrewing.com
+305,Kax7jD,Granite Falls Brewing Company,Y,Granite Falls,North Carolina,35.79488920000001,-81.4299923,Brewpub,(828) 212-1222,http://www.granitefallsbrewing.com/
+306,s5lxSd,Twin Leaf Brewery,Y,Asheville,North Carolina,35.5894369,-82.554528,Brewpub,,http://www.twinleafbrewery.com/
+307,EHyEDE,Free Range Brewing,Y,Charlotte,North Carolina,35.240505,-80.8133063,Nano Brewery,704-898-4247,http://www.freerangebrewing.com/
+308,4w2uep,Black Mountain Cider + Mead,Y,Black Mountain,North Carolina,35.6178951,-82.3212302,Cidery,828-419-0089,blackmountainciderworks.com
+309,xrLwng,Red Clay Ciderworks,Y,Charlotte,North Carolina,35.194471,-80.874864,Cidery,(980) 498-0676,http://www.redclayhardcider.com/
+311,pd5sQn,Noble Cider,Y,Asheville,North Carolina,35.602136,-82.62465,Cidery,(828) 575-9622,http://www.noblecider.com/
+312,Cwhr9F,Archetype Brewing Company,Y,Asheville,North Carolina,35.5782143,-82.5750885,Micro Brewery,(828) 505-4177,
+314,pwfPCD,Big Boss Brewing Company,Y,Raleigh,North Carolina,35.810418,-78.617923,Micro Brewery,919-834-0045,http://bigbossbrewing.com
+316,UqRU9L,Good Road Ciderworks,Y,Charlotte,North Carolina,35.184923100000006,-80.8794118,Micro Brewery,980-237-7225,
+317,xyGdVR,Fiddlin' Fish Brewery,Y,Winston-Salem,North Carolina,36.1042576,-80.246753,Micro Brewery,,
+318,FLYvq1,"Blackwater Cider, LLC",Y,Windsor,North Carolina,35.997993,-76.947,Micro Brewery,(252) 367-0367,
+320,pM9Wxy,Shortway Brewing Company,Y,Newport,North Carolina,34.7911591,-76.8593178,Micro Brewery,252-777-3065,https://www.shortwaybrewing.com/
+321,iTO5C7,Morgan Ridge Railwalk Brewery & Eatery,Y,Salisbury,North Carolina,35.669381200000004,-80.4645875,Micro Brewery,704-754-8379,
+322,dok14D,Eluvium Brewing Company,Y,Weaverville,North Carolina,35.6975495,-82.56102,Micro Brewery,,
+323,7x4BgP,"Makai Brewing Company, LLC",Y,OCEAN ISLE BEACH,North Carolina,33.9535051,-78.45987530000001,Micro Brewery,910-579-2739,www.makaibrewing.com
+324,Aiq0ix,Hops Grill & Brewery,Y,Matthews,North Carolina,35.1315842,-80.7113447,Brewpub,704-844-8300,http://www.hopsrestaurants.com/
+325,XnBFll,Bold Rock Hard Cider,Y,Mills River,North Carolina,35.377121,-82.5605054,Cidery,(828) 595-9941,http://boldrock.com/mills-river/
+326,5zPMkZ,Crystal Coast Brewing Company,Y,Morehead City,North Carolina,34.72143079999999,-76.7115145,Micro Brewery,​(252) 773-0974,
+328,WDrFlD,Asheville Brewing Company,Y,Asheville,North Carolina,35.622105100000006,-82.5537092,Brewpub,828-254-1281,http://www.ashevillebrewing.com/
+329,p2bHtA,Blowing Rock Brewing,Y,Blowing Rock,North Carolina,36.135129,-81.6776059,Office,828-963-0619,
+330,ichhfQ,Olde Hickory Brewery,Y,Hickory,North Carolina,35.732019,-81.34044300000001,Restaurant/Ale House,828.322.1965,http://www.oldehickorytaproom.com/
+331,jsSAuY,Petty Thieves Brewing Co.,Y,Charlotte,North Carolina,35.2263714,-80.7990185,Micro Brewery,(704) 301-3209,https://squareup.com/store/petty-thieves-brewing-co?fbclid=IwAR327F2xTcaiAstPCTPJtp0kFK97v5TSW5-KTXOyCj0VrfAgKXSzIx9i5uk
+332,JKx7GQ,Carolina Brewery,Y,Pittsboro,North Carolina,35.743611,-79.164712,Brewpub,919-545-2330,http://www.carolinabrewery.com/
+333,ge5JEA,Ponysaurus Brewing,Y,Durham,North Carolina,35.989615,-78.89529399999999,Brewpub,704-488-2797,http://ponysaurusbrewing.com
+334,rfXHD7,Natty Greene's Brewing Co.,Y,Greensboro,North Carolina,36.061736700000004,-79.8165003,Production Facility,(336) 274-1373,
+335,ichhfQ,Olde Hickory Brewery,Y,Hickory,North Carolina,35.731722,-81.341977,Production Facility,(828) 322-1422,
+337,rfXHD7,Natty Greene's Brewing Co.,Y,Raleigh,North Carolina,35.7825643,-78.64644969999999,Brewpub,919-232-2477,http://nattygreenes.com/raleigh/
+339,W8qQNg,Red Hare Brewing Company,Y,Shallotte,North Carolina,33.9731187,-78.38595649999999,Micro Brewery,,
+342,VVT7Jn,Sidetracked Brewery,Y,MORGANTON,North Carolina,35.7422235,-81.6819897,Nano Brewery,8285445840,https://www.sidetrackedbrew.com/
+344,Ibch0C,Skull Camp Brewing,Y,Elkin,North Carolina,36.2835665,-80.85254590000001,Micro Brewery,,
+345,eTleEf,Skytown Beer Company,Y,Wilmington,North Carolina,34.2474075,-77.8820578,Brewpub,9106608721,
+346,XRTc94,Aviator Brewing Company,Y,Fuquay-Varina,North Carolina,35.5923185,-78.7843771,Restaurant/Ale House,(919) 557-7675,http://www.aviatorbrew.com/
+347,sQlYnZ,Thirsty Monk Brewery,Y,Asheville,North Carolina,35.503331599999996,-82.522118,Production Facility,828.505.4564,
+348,OCiWW5,Catawba Brewing Co.,Y,Asheville,North Carolina,35.589077,-82.5536957,Micro Brewery,(828) 552-3934,http://catawbabrewing.com/
+349,XRTc94,Aviator Brewing Company,Y,Fuquay-Varina,North Carolina,35.5929549,-78.7940578,Tasting Room,919.552.8826,http://www.aviatorbrew.com/
+350,2U69bM,Birdsong Brewing Co.,Y,Charlotte,North Carolina,35.230652,-80.826536,Micro Brewery,704-332-1810,
+351,Pf7pos,Boondocks Brewing,Y,West Jefferson,North Carolina,36.400784,-81.492077,Brewpub,336-246-5222,http://www.boondocks-brewing.com/
+352,1BSxpy,Lynnwood Brewing Concern,Y,Raleigh,North Carolina,35.8087141,-78.6211297,Micro Brewery,(919) 424-7533,http://www.lynnwoodbrewing.beer
+353,7YjMl7,Tar Banks Brewing Co.,Y,Louisburg,North Carolina,36.099260799999996,-78.30053149999999,Micro Brewery,919-729-1750,https://www.tarbanksbrewing.com/
+355,QM3KJY,Tek Mountain Brewing,Y,Wilmington,North Carolina,34.2430338,-77.8213126,Nano Brewery,(910) 470-5334,
+357,UkUMx0,Full Moon Brewery,Y,Manteo,North Carolina,35.909283,-75.669251,Brewpub,(252) 473-6666,
+358,3yerS2,The Olde Mecklenburg Brewery,Y,Charlotte,North Carolina,35.187442,-80.881973,Micro Brewery,704-525-5644,http://oldemeckbrew.com/
+359,sQlYnZ,Thirsty Monk Brewery,Y,Asheville,North Carolina,35.4863396,-82.5552093,Micro Brewery,(828) 687-3873,https://monkpub.com/biltmore-park/
+361,6jDZlV,Trophy Brewing Company,Y,Raleigh,North Carolina,35.779672,-78.6534982,Brewpub,(919) 803-4849,http://www.trophybrewing.com/
+362,6jDZlV,Trophy Brewing Company,Y,Raleigh,North Carolina,35.76164,-78.657101,Micro Brewery,,
+363,EeNu7g,UpCountry Brewing Co.,Y,Asheville,North Carolina,35.581537299999994,-82.60432390000001,Micro Brewery,(828) 575-2400,https://upcountrybrewing.com/
+364,bxzsq8,Uptown Brewing Company,Y,Greenville,North Carolina,35.6115248,-77.3733107,Micro Brewery,252) 689-6487,www.uptownbrewingcompany.com
+365,pEl3VV,Vicious Fishes Brewery,Y,Angier,North Carolina,35.5078302,-78.7489493,Micro Brewery,(919) 639-3363,https://www.viciousfishes.com/
+366,yO2ogr,Wedge Brewing Company,Y,Asheville,North Carolina,35.5775205,-82.56605079999999,Micro Brewery,(828) 253-7152,https://www.wedgebrewing.com/location-wedge-foundation
+367,zeWbuM,Wicked Weed Brewing Company,Y,Candler,North Carolina,35.545438,-82.6401209,Micro Brewery,(828)365-7166,https://www.wickedweedbrewing.com/locations/brewery/
