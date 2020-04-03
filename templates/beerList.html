@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/beerList.css">
 
 </head>
 
@@ -44,9 +44,13 @@
         </div>
     </div>
 
+    <script type="text/javascript">
+        var master = {{master|tojson|safe}};
+        var brew_list = {{breweries|tojson|safe}};
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="../static/js/beerList.js"></script>
 </body>
 
 </html>

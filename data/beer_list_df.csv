@@ -1,4 +1,4 @@
-,brewery_id,beer_id,availability,beer_name,beer_style,abv,ibu,is_retired,master_style
+index,brewery_id,beer_id,availability,beer_name,beer_style,abv,ibu,is_retired,master_style
 0,QEB46N,rjwbiG,Year Round,Bended Tree,Field Beer,5.0,24.0,N,Other
 1,QEB46N,6NOE18,Year Round,Blonde Ale,Golden or Blonde Ale,5.0,20.0,N,Ale
 2,QEB46N,U3fPrh,Year Round,Hop Rooted,American-Style India Pale Ale,6.5,60.0,N,IPA
