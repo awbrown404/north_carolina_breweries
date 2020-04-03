@@ -5,6 +5,7 @@ import pandas as pd
 
 # read in data
 master = pd.read_csv("data/master_beer_df.csv")
+master_condensed = pd.read_csv("data/master_beer_condensed.csv")
 breweries = pd.read_csv("data/nc_breweries_df.csv")
 
 # establish mongo db connection
@@ -14,10 +15,12 @@ db = client.nc_breweries_db
 
 # drop existing collection to prevent duplicates
 db.beer_master.drop()
+db.master_condensed.drop()
 db.breweries.drop()
 
 # creates a collection and inserts data
 db.beer_master.insert_many(master.to_dict('records'))
+db.master_condensed.insert_many(master_condensed.to_dict('records'))
 db.breweries.insert_many(breweries.to_dict('records'))
 
 app = Flask(__name__)
@@ -28,7 +31,7 @@ def main():
 
 @app.route('/beerList')
 def beerList():
-    master = list(db.beer_master.find({}, {'_id': False}))
+    master = list(db.master_condensed.find({}, {'_id': False}))
     breweries = list(db.breweries.find({}, {'_id': False}))
     return render_template("beerList.html", master=master, breweries=breweries)
 

@@ -55,11 +55,6 @@ function updateTable(selection, dataset) {
 
 // handle change in dropdown menu
 function optionChanged(user_brew) {
-
-    // retrieve brewery id using data
-    var breweryFilter = brew_list.filter(br => br.breweries === user_brew);
-    var selectedId = breweryFilter[0].brewery_id;
-
     // sort data by master beer style
     master.sort((a, b) => {
         if (a.master_style < b.master_style) { return -1; }
@@ -68,7 +63,7 @@ function optionChanged(user_brew) {
     })
 
     // filter data
-    var filtered = master.filter(bl => bl.brewery_id === selectedId);
+    var filtered = master.filter(bl => bl.brewery === user_brew);
 
     // render beer list table
     renderTable(filtered);
@@ -201,10 +196,6 @@ function init() {
     // retrieve first brewery to filter data on load
     selectedBrewery = breweries[0];
 
-    // retrieve brewery id using data
-    var breweryFilter = brew_list.filter(br => br.breweries === selectedBrewery);
-    var selectedId = breweryFilter[0].brewery_id;
-
     // sort data by master beer style
     master.sort((a, b) => {
         if (a.master_style < b.master_style) { return -1; }
@@ -213,8 +204,8 @@ function init() {
     })
 
     // filter data
-    var filtered = master.filter(bl => bl.brewery_id === selectedId);
-
+    var filtered = master.filter(bl => bl.brewery === selectedBrewery);
+    console.log(master);
     // render beer list table
     renderTable(filtered);
 
