@@ -8,16 +8,22 @@ conn = 'mongodb://localhost:27017'
 client = pymongo.MongoClient(conn)
 
 #Define the database in Mongo
-db = client.nc_beers
+db = client.beers_project
 
-# We're using the new route that allows us to read a date from the URL
+# route to "landing" page
 @app.route('/')
 def index():
         return render_template('index.html')
+
+#route to beer list page
 @app.route('/<beerList>')
 def beerList():
-    return render_template
+    return render_template('beerList.html')
 
+#route to beer map page
+@app.route('/<beerMap')
+def beerMap():
+    return render_template('beerMap.html')
 
 
 if __name__ == '__main__':
