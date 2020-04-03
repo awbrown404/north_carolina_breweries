@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NC Breweries</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
@@ -11,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -25,48 +27,53 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="templates/index.html">NC Breweries</a>
+        <a class="navbar-brand" href="index.html">NC Breweries</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="templates/BeerList.html">Find </a></li>
-          <li><a href="templates/beerMap.html">Map</a></li>
+          <li><a href="BeerList.html">Find</a></li>
+          <li><a href="beerMap.html">Map</a></li>
         </ul>
       </div>
     </div>
   </nav>
+
   <div class="container">
     <div class="row">
-      <div class="col-md-12 pad top"> <br>
-        <h1>Find a Brew in North Carolina</h1> <br>
-      </div>
+        <div class="col-md-12 jumbotron text-center">
+            <h1>placeholder</h1>
+        </div>
     </div>
     <div class="row">
-      <div class="col-md-12 pad top"> <br>
-        <!-- <div class="justify-center">
-          <img src="assets/hero-bg.jpg" alt="photo" width="300">
-        </div> -->
-        <div class="text-justify">
-          <p>This is an application with a backend written in python (Flask) and a front end developed using Mike Bostock's
-            hierarchical chart example.This application also makes use of Andrew Heekins code to convert a dataframe
-            to a nested json.For the detailed code, please visit my github.Data for this visualization hasbeen extracted from FAOSTAT
-            Pick a year (between 2010 and 2013) and a country, to begin!</p> <br>
+        <div class="col-md-2 box1">
+            <div class="well">
+                <h5>Select a Brewery:</h5>
+                <select id="selBrewery" style="width: 100%;" onchange="optionChanged(this.value)"></select>
+                <br></br>
+                <p>Click on any of the columns in the bar chart to filter the selected brewery's beer list by that style of beer.
+                    Click anywhere in the whitespace to restore the full beer list for the selected brewery.</p>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 pad top"> <br>
-          <h1>Name Your Poison</h1> <br>
-          <a href="BeerList.html"><img src="assets/img/list.jpeg" alt="BeerList" width="100%"
-              height="100%"></a>
+        <div class="col-md-10 box2">
+            <div class="chartjs">
+                <canvas id="myChart"></canvas>
+            </div>
         </div>
-        <div class="col-md-6 pad top"> <br>
-          <h1>Search Around Me</h1> <br>
-          <a href="beerMap.html"><img src="assets/img/hero-bg.jpg" alt="BeerMap"
-              width="100%" height="100%"></a>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="beerList" class="table">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
         </div>
-      </div>
     </div>
   </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
+
 </html>

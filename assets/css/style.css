@@ -1,39 +1,73 @@
-text {
-  font: 10px sans-serif;
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-button{
-  font: 10px sans-serif;
-    
+h1 {
+    color: #2c3e50!important;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
-rect.background {
-  fill: white;
-  stroke: #646464;
-  stroke-width: 1px;
-  stroke-dasharray: 2,2;
-  stroke-linejoin: round;
+h2 {
+    color: #2c3e50!important;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
-.axis {
-  shape-rendering: crispEdges;
+img {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
+p {
+    font-family: sans-serif;
+    font-size: 12
 }
 
-.left-div {
-  float:left;
-  height: 520px;
-  width: 750px;
-  
+.container {
+    background-color: white;
 }
-.right-div {
-  float:right;
-  height: 520px;
-  width: 750px;
-  
+.navbar {
+    border: 0;
+}
+
+.navbar * {
+    background-color: #2c3e50;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: grey;
+}
+.dropdown-menu>li>a {
+    color: white;
+}
+.navbar-brand {
+    background-color: #2c3e50!important;
+    font-weight: bold;
+    color: white;
+}
+
+/* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
+
+@media (max-width: 480px) {
+    .navbar {
+        background-color: #2c3e50!important;
+    }
+}
+
+.navbar-brand {
+    background-color: white;
+    font-weight: bold;
+    color: rgb(12, 173, 167);
 }
