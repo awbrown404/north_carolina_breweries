@@ -7,7 +7,7 @@ import pandas as pd
 master = pd.read_csv("data/master_beer_df.csv")
 master_condensed = pd.read_csv("data/master_beer_condensed.csv")
 breweries = pd.read_csv("data/nc_breweries_df.csv")
-breweries_condensed = pd.read_csv("data/stallite_breweries_removed.csv")
+breweries_condensed = pd.read_csv("data/satallite_breweries_removed.csv")
 
 # establish mongo db connection
 conn = 'mongodb://localhost:27017'
