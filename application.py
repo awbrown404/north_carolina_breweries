@@ -4,11 +4,15 @@ from pymongo import MongoClient
 
 # create a Flask app
 app = Flask(__name__)
-conn = 'mongodb://localhost:27017'
-client = pymongo.MongoClient(conn)
+client = MongoClient('mongodb://localhost:27017')
 
-#Define the database in Mongo
+# Define the database in Mongo
 db = client.beers_project
+
+# Collections
+breweries = db.breweries
+beer_list = db.beers
+master_beer = db.master_beer
 
 # route to "landing" page
 @app.route('/')
