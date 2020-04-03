@@ -8,7 +8,7 @@ conn = 'mongodb://localhost:27017'
 client = pymongo.MongoClient(conn)
 
 #Define the database in Mongo
-db = nc_beers
+db = client.nc_beers
 
 # We're using the new route that allows us to read a date from the URL
 @app.route('/')
