@@ -56,12 +56,12 @@ function updateTable(selection, dataset) {
 // handle change in dropdown menu
 function optionChanged(user_brew) {
 
-    d3.csv("assets/data/brewery_df.csv").then(function(brew_df) {
+    d3.csv("static/data/brewery_df.csv").then(function(brew_df) {
         // retrieve brewery id using data
         var breweryFilter = brew_df.filter(br => br.breweries === user_brew);
         var selectedId = breweryFilter[0].brewery_id;
 
-        d3.csv("assets/data/beer_list_df.csv").then(function(beer_list) {
+        d3.csv("static/data/beer_list_df.csv").then(function(beer_list) {
             // sort data by master beer style
             beer_list.sort((a, b) => {
                 if(a.master_style < b.master_style) {return -1;}
@@ -192,7 +192,7 @@ function optionChanged(user_brew) {
 
 
 // initial data, plot load
-d3.csv("assets/data/brewery_df.csv").then(function(brew_df) {
+d3.csv("static/data/brewery_df.csv").then(function(brew_df) {
     // sort breweries
     var breweries = brew_df.map(brewery => brewery.breweries);
     var breweries = breweries.sort();
@@ -211,7 +211,7 @@ d3.csv("assets/data/brewery_df.csv").then(function(brew_df) {
     var selectedId = breweryFilter[0].brewery_id;
 
     // load beer list
-    d3.csv("assets/data/beer_list_df.csv").then(function(beer_list) {
+    d3.csv("static/data/beer_list_df.csv").then(function(beer_list) {
         // sort data by master beer style
         beer_list.sort((a, b) => {
             if(a.master_style < b.master_style) {return -1;}
