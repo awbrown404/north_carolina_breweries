@@ -21,7 +21,7 @@ def beerList():
     return render_template('beerList.html')
 
 #route to beer map page
-@app.route('/<beerMap')
+@app.route('/<beerMap>')
 def beerMap():
     return render_template('beerMap.html')
 
