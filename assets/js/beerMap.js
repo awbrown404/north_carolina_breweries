@@ -25,7 +25,7 @@ var customLayer = L.geoJson(null, {
 });
 
 
-var points = omnivore.csv('Data/nc_breweries_df.csv', null, customLayer);
+var points = omnivore.csv('/data/nc_breweries_df.csv', null, customLayer);
 //points.addTo(map);
 
 var markers = L.markerClusterGroup({

@@ -22,14 +22,17 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
 
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/curt.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/beerMap.css">
 
   </head>
   <body>
-
+    <script> 
+      var master = {{ master|tojson }}; 
+      var breweries = {{ breweries|tojson }};
+    </script>
     <div id="map"></div>
-    <script type="text/javascript" src="assets/js/config.js"></script>
-    <script type="text/javascript" src="assets/js/curt.js"></script>
+    <script type="text/javascript" src="/assets/js/config.js"></script>
+    <script type="text/javascript" src="/assets/js/beerMap.js"></script>
 
   </body>
 </html>
