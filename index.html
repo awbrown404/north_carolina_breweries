@@ -11,25 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  
-  <!-- Style Specific to this Page -->
-  <!-- Leaflet JS & CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-  crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-  <!-- d3 JS -->
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <!-- Marker Cluster JS & CSS -->
-  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/beerMap.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -45,17 +27,46 @@
         </button>
         <a class="navbar-brand" href="index.html">NC Breweries</a>
       </div>
+
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="templates/BeerList.html">Find</a></li>
+          <li><a href="templates/BeerList.html">Find </a></li>
           <li><a href="templates/beerMap.html">Map</a></li>
         </ul>
       </div>
     </div>
   </nav>
-    <div id="map"></div>
-    <script type="text/javascript" src="static/js/config.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/map.js"></script> -->
-    <script type="text/javascript" src="static/js/beerMap.js"></script>
-  </body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 pad top"> <br>
+        <h1>Find a Brew in North Carolina</h1> <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 pad top"> <br>
+        <!-- <div class="justify-center">
+          <img src="assets/hero-bg.jpg" alt="photo" width="300">
+        </div> -->
+        <div class="text-justify">
+          <p>This is an application with a backend written in python (Flask) and a front end developed using Mike Bostock's
+            hierarchical chart example.This application also makes use of Andrew Heekins code to convert a dataframe
+            to a nested json.For the detailed code, please visit my github.Data for this visualization hasbeen extracted from FAOSTAT
+            Pick a year (between 2010 and 2013) and a country, to begin!</p> <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pad top"> <br>
+          <h1>Name Your Poison</h1> <br>
+          <a href="templates/BeerList.html"><img src="static/img/list.jpeg" alt="BeerList" width="100%"
+              height="100%"></a>
+        </div>
+        <div class="col-md-6 pad top"> <br>
+          <h1>Search Around Me</h1> <br>
+          <a href="templates/beerMap.html"><img src="static/img/hero-bg.jpg" alt="BeerMap"
+              width="100%" height="100%"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

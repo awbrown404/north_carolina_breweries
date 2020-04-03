@@ -3,33 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NC Breweries</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" /> -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  
-  <!-- Style Specific to this Page -->
-  <!-- Leaflet JS & CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-  crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-  <!-- d3 JS -->
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <!-- Marker Cluster JS & CSS -->
-  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/beerMap.css">
+  <link rel="stylesheet" href="static/css/beerList.css">
 </head>
 
 <body>
@@ -45,6 +29,7 @@
         </button>
         <a class="navbar-brand" href="index.html">NC Breweries</a>
       </div>
+
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="templates/BeerList.html">Find</a></li>
@@ -53,9 +38,42 @@
       </div>
     </div>
   </nav>
-    <div id="map"></div>
-    <script type="text/javascript" src="static/js/config.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/map.js"></script> -->
-    <script type="text/javascript" src="static/js/beerMap.js"></script>
-  </body>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+            <h1>placeholder</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 box1">
+            <div class="well">
+                <h5>Select a Brewery:</h5>
+                <select id="selBrewery" style="width: 100%;" onchange="optionChanged(this.value)"></select>
+                <br></br>
+                <p>Click on any of the columns in the bar chart to filter the selected brewery's beer list by that style of beer.
+                    Click anywhere in the whitespace to restore the full beer list for the selected brewery.</p>
+            </div>
+        </div>
+        <div class="col-md-10 box2">
+            <div class="chartjs">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="beerList" class="table">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script type="text/javascript" src="static/js/beerList.js"></script>
+</body>
+
 </html>
