@@ -31,10 +31,10 @@ function renderTable(dataset) {
         // append a new row to the table body
         var row = tbody.append("tr");
 
-        // use forEach to store each paired value in the sighting to a cell
+        // use forEach to store each paired value to a cell
         Object.entries(item).forEach(([key, value]) => {
             var cell = row.append("td");
-            cell.text(value);
+            cell.text(value || "");
         });
     });
 };
