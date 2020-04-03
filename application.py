@@ -1,30 +1,24 @@
+# import Flask
 from flask import Flask, render_template, request
-import csv
-import json
-import sqlite3
-from sqlalchemy import create_engine
-import pandas as pd 
+from pymongo import MongoClient
 
+# create a Flask app
 app = Flask(__name__)
+conn = 'mongodb://localhost:27017'
+client = pymongo.MongoClient(conn)
 
-file = '..\north_carolina_brweries\assets\data\nc_breweries_df.csv'
+#Define the database in Mongo
+db = nc_beers
 
-breweries_db = create_engine('sqlite:///breweries_db.db')
+# We're using the new route that allows us to read a date from the URL
+@app.route('/')
+def index():
+        return render_template('index.html')
+@app.route('/<beerList>')
+def beerList():
+    return render_template
 
-for df in pd.read_csv(file)
 
-@app.route('/', methods=["GET", "POST "])
-def homepage():
-      data.brewery = request.form.get('breweries', '')
-      data.city = request.form.get('city', '')
 
-      df = pd.read_csv('..\north_carolina_brweries\assets\data\nc_breweries_df.csv')
-      brewery = data.brewery
-      city = data.city
-
-      df = df[df.brewery == brewery]
-      df = df[df.city == city]
-
-      df = df[["breweries", "city"]]
-
-if __name__ == "__main__":
+if __name__ == '__main__':
+    app.run(debug=True)
