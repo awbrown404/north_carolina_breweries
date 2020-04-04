@@ -19,9 +19,9 @@ L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
 });
 
 var customLayer = L.geoJson(null, {
-    onEachFeature: function(feature, layer) {
-      layer.bindPopup("<h3>" + feature.properties.breweries + "<h3><h3>Type of Brewery: " + feature.properties.brewery_type + "<h3>Website:  " + feature.properties.website + "</h3>");
-      }
+  onEachFeature: function(feature, layer) {
+    layer.bindPopup("<h3>" + feature.properties.breweries + "<h3><h3>Type of Brewery: " + feature.properties.brewery_type + '<h3><a href="' + feature.properties.website + '">' + feature.properties.website + "</a></h3>");
+    }
 });
 
 
