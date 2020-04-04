@@ -2,12 +2,12 @@
 from flask import Flask, render_template, jsonify
 import pymongo
 import pandas as pd
+import math
 
 # read in data
 master = pd.read_csv("data/master_beer_df.csv")
 master_condensed = pd.read_csv("data/master_beer_condensed.csv")
 breweries = pd.read_csv("data/nc_breweries_df.csv")
-breweries = breweries.replace(, "")
 breweries_condensed = pd.read_csv("data/satallite_breweries_removed.csv")
 
 # establish mongo db connection
@@ -51,9 +51,11 @@ def geoData():
     geoJSONs = []
     for brewery in breweries:
         outGeoJson = {}
-        outGeoJson['properties'] = brewery
-        outGeoJson['type'] = "Feature"
-        outGeoJson['geometry'] = {"type": "Point", "coordinates": [brewery['latitude'], brewery['longitude']]}
+        del brewery["website"]
+        del brewery["phone"]
+        outGeoJson["properties"] = brewery
+        outGeoJson["type"] = "Feature"
+        outGeoJson["geometry"] = {"type": "Point", "coordinates": [brewery['longitude'], brewery['latitude']]}
         geoJSONs.append(outGeoJson)
     geoJsons2 = {"type": "FeatureCollection", "features": geoJSONs}
     return jsonify(geoJsons2) # end delete
