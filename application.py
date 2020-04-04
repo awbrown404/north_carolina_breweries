@@ -56,7 +56,7 @@ def geoData():
         outGeoJson['geometry'] = {"type": "Point", "coordinates": [brewery['latitude'], brewery['longitude']]}
         geoJSONs.append(outGeoJson)
     geoJsons2 = {"type": "FeatureCollection", "features": geoJSONs}
-    return jsonify(geoJsons2)
+    return jsonify(geoJsons2) # end delete
 
 if __name__ == "__main__":
     app.run(debug=True)

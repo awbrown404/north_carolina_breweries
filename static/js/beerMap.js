@@ -25,7 +25,20 @@ var customLayer = L.geoJson(null, {
 });
 
 
-var points = omnivore.csv('/data/nc_breweries_df.csv', null, customLayer);
+// var points = omnivore.csv('/data/nc_breweries_df.csv', null, customLayer);
+// var blah = []
+// brew_list.forEach(js => {
+//   var outGeoJson = {}
+//   outGeoJson['properties'] = js
+//   outGeoJson['type']= "Feature"
+//   outGeoJson['geometry']= {"type": "Point", "coordinates":
+//     [js['latitude'], js['longitude']]}
+//   blah.push(outGeoJson)
+// })
+
+// var pleaseWork = {"type": "FeatureCollection", "features": blah};
+
+var points = omnivore.geojson("/geoData", null, customLayer);
 //points.addTo(map);
 
 var markers = L.markerClusterGroup({
@@ -35,7 +48,7 @@ var markers = L.markerClusterGroup({
 map.addLayer(markers);
 
 points.on('ready', function () {
-    map.fitBounds(points.getBounds())
+  map.fitBounds(points.getBounds())
   console.log(points.getLayers().length)
   markers.addLayer(points);
 });
