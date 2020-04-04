@@ -39,11 +39,12 @@ def beerList():
     breweries = list(db.breweries_condensed.find({}, {'_id': False}))
     return render_template("beerList.html", master=master, breweries=breweries)
 
-@app.route('/beerMap')
-def beerMap():
-    master = list(db.beer_master.find({}, {'_id': False}))
-    breweries = list(db.breweries.find({}, {'_id': False}))
-    return render_template("beerMap.html", master=master, breweries=breweries)
+# deprecated route
+# @app.route('/beerMap')
+# def beerMap():
+#     master = list(db.beer_master.find({}, {'_id': False}))
+#     breweries = list(db.breweries.find({}, {'_id': False}))
+#     return render_template("beerMap.html", master=master, breweries=breweries)
 
 @app.route('/geoData')
 def geoData():

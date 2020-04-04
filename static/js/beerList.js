@@ -65,6 +65,10 @@ function optionChanged(user_brew) {
     // filter data
     var filtered = master.filter(bl => bl.brewery === user_brew);
 
+    // update header
+    header = d3.select("h3")
+    header.text(`Beers by Style - ${user_brew}`)
+
     // render beer list table
     renderTable(filtered);
 
@@ -195,6 +199,10 @@ function init() {
 
     // retrieve first brewery to filter data on load
     selectedBrewery = breweries[0];
+
+    // update header
+    header = d3.select("h3")
+    header.text(`Beers by Style - ${selectedBrewery}`)
 
     // sort data by master beer style
     master.sort((a, b) => {
