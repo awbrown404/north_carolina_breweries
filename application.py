@@ -2,10 +2,8 @@
 from flask import Flask, render_template, jsonify
 import pymongo
 import pandas as pd
-import math
 
 # read in data
-master = pd.read_csv("data/master_beer_df.csv")
 master_condensed = pd.read_csv("data/master_beer_condensed.csv")
 breweries = pd.read_csv("data/nc_breweries_df.csv")
 breweries_condensed = pd.read_csv("data/satallite_breweries_removed.csv")
@@ -16,13 +14,11 @@ client = pymongo.MongoClient(conn)
 db = client.nc_breweries_db
 
 # drop existing collection to prevent duplicates
-db.beer_master.drop()
 db.master_condensed.drop()
 db.breweries.drop()
 db.breweries_condensed.drop()
 
 # creates a collection and inserts data
-db.beer_master.insert_many(master.to_dict('records'))
 db.master_condensed.insert_many(master_condensed.to_dict('records'))
 db.breweries.insert_many(breweries.to_dict('records'))
 db.breweries_condensed.insert_many(breweries_condensed.to_dict('records'))
