@@ -45,20 +45,19 @@ def beerMap():
     breweries = list(db.breweries.find({}, {'_id': False}))
     return render_template("beerMap.html", master=master, breweries=breweries)
 
-@app.route('/geoData') # make sure you delete this if it doesn't work
+@app.route('/geoData')
 def geoData():
     breweries = list(db.breweries.find({}, {'_id': False}))
-    geoJSONs = []
+    allPoints = []
     for brewery in breweries:
         outGeoJson = {}
-        del brewery["website"]
         del brewery["phone"]
         outGeoJson["properties"] = brewery
         outGeoJson["type"] = "Feature"
         outGeoJson["geometry"] = {"type": "Point", "coordinates": [brewery['longitude'], brewery['latitude']]}
-        geoJSONs.append(outGeoJson)
-    geoJsons2 = {"type": "FeatureCollection", "features": geoJSONs}
-    return jsonify(geoJsons2) # end delete
+        allPoints.append(outGeoJson)
+    geoJSONs = {"type": "FeatureCollection", "features": allPoints}
+    return jsonify(geoJSONs)
 
 if __name__ == "__main__":
     app.run(debug=True)
