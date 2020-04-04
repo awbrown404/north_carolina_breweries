@@ -1,5 +1,5 @@
 # import dependencies
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 import pymongo
 import pandas as pd
 
@@ -7,6 +7,7 @@ import pandas as pd
 master = pd.read_csv("data/master_beer_df.csv")
 master_condensed = pd.read_csv("data/master_beer_condensed.csv")
 breweries = pd.read_csv("data/nc_breweries_df.csv")
+breweries = breweries.replace(, "")
 breweries_condensed = pd.read_csv("data/satallite_breweries_removed.csv")
 
 # establish mongo db connection
@@ -43,6 +44,19 @@ def beerMap():
     master = list(db.beer_master.find({}, {'_id': False}))
     breweries = list(db.breweries.find({}, {'_id': False}))
     return render_template("beerMap.html", master=master, breweries=breweries)
+
+@app.route('/geoData') # make sure you delete this if it doesn't work
+def geoData():
+    breweries = list(db.breweries.find({}, {'_id': False}))
+    geoJSONs = []
+    for brewery in breweries:
+        outGeoJson = {}
+        outGeoJson['properties'] = brewery
+        outGeoJson['type'] = "Feature"
+        outGeoJson['geometry'] = {"type": "Point", "coordinates": [brewery['latitude'], brewery['longitude']]}
+        geoJSONs.append(outGeoJson)
+    geoJsons2 = {"type": "FeatureCollection", "features": geoJSONs}
+    return jsonify(geoJsons2)
 
 if __name__ == "__main__":
     app.run(debug=True)
