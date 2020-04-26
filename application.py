@@ -1,6 +1,7 @@
 # import dependencies
 from flask import Flask, render_template, jsonify
-import pymongo
+##import pymongo
+from pymongo import MongoClient
 import pandas as pd
 
 # read in data
@@ -9,9 +10,9 @@ breweries = pd.read_csv("data/nc_breweries_df.csv")
 breweries_condensed = pd.read_csv("data/satallite_breweries_removed.csv")
 
 # establish mongo db connection
-conn = 'mongodb://localhost:27017'
-client = pymongo.MongoClient(conn)
-db = client.nc_breweries_db
+##conn = 'mongodb+srv://<username>:<password>@cluster0-xhk0t.mongodb.net/test'
+client = pymongo.MongoClient('mongodb+srv://<username>:<password>@cluster0-xhk0t.mongodb.net/test')
+db = client.nc_craft_breweries_db
 
 # drop existing collection to prevent duplicates
 db.master_condensed.drop()
