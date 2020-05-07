@@ -1,25 +1,28 @@
 # import dependencies
 from flask import Flask, render_template, jsonify
-##import pymongo
-from pymongo import MongoClient
+import pymongo
 import pandas as pd
+import math
 
 # read in data
+master = pd.read_csv("data/master_beer_df.csv")
 master_condensed = pd.read_csv("data/master_beer_condensed.csv")
 breweries = pd.read_csv("data/nc_breweries_df.csv")
 breweries_condensed = pd.read_csv("data/satallite_breweries_removed.csv")
 
 # establish mongo db connection
-##conn = 'mongodb+srv://<username>:<password>@cluster0-xhk0t.mongodb.net/test'
-client = pymongo.MongoClient('mongodb+srv://<username>:<password>@cluster0-xhk0t.mongodb.net/test')
-db = client.nc_craft_breweries_db
+conn = 'mongodb://localhost:27017'
+client = pymongo.MongoClient(conn)
+db = client.nc_breweries_db
 
 # drop existing collection to prevent duplicates
+db.beer_master.drop()
 db.master_condensed.drop()
 db.breweries.drop()
 db.breweries_condensed.drop()
 
 # creates a collection and inserts data
+db.beer_master.insert_many(master.to_dict('records'))
 db.master_condensed.insert_many(master_condensed.to_dict('records'))
 db.breweries.insert_many(breweries.to_dict('records'))
 db.breweries_condensed.insert_many(breweries_condensed.to_dict('records'))
@@ -36,9 +39,12 @@ def beerList():
     breweries = list(db.breweries_condensed.find({}, {'_id': False}))
     return render_template("beerList.html", master=master, breweries=breweries)
 
-@app.route('/beerMap')
-def beerMap():
-    return render_template("beerMap.html")
+# deprecated route
+# @app.route('/beerMap')
+# def beerMap():
+#     master = list(db.beer_master.find({}, {'_id': False}))
+#     breweries = list(db.breweries.find({}, {'_id': False}))
+#     return render_template("beerMap.html", master=master, breweries=breweries)
 
 @app.route('/geoData')
 def geoData():
